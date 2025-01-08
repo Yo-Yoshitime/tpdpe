@@ -1,9 +1,9 @@
 <h1>Main Page</h1> 
 
-Because of my lazy ass, I made a wiki with all the Encore changes already implemented. I couldn't post it on Miraheze because it was considered a dupe and I'll never make a wiki on Fandom lmao. Link of the [original wiki](https://tpdp.miraheze.org/wiki/Main_Page)
+Because of my lazy ass, I made a wiki with all the Encore changes already implemented. I couldn't post it on Miraheze because it was considered a dupe and I'll never make a wiki on Fandom lmao. Link of the [Original wiki](https://tpdp.miraheze.org/wiki/Main_Page).
 
 <ul>
-  <li><a href="{{ '/type_chart' | relative_url }}">Type Chart</a></li>
+  <li><a href="{{ '/Type-Chart' | relative_url }}">Type Chart</a></li>
   <li><a href="{{ '/puppets' | relative_url }}">Puppets</a></li>
   <li><a href="{{ '/skills' | relative_url }}">Skills</a></li>
   <li><a href="{{ '/abilities' | relative_url }}">Abilities</a></li>
