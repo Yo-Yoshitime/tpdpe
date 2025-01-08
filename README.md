@@ -8,7 +8,7 @@ Because of my lazy ass, I made a wiki with all the Encore changes already implem
   <li><a href="{{ '/skills' | relative_url }}">Skills</a></li>
   <li><a href="{{ '/abilities' | relative_url }}">Abilities</a></li>
   <li><a href="{{ '/items' | relative_url }}">Items</a></li>
-  <li><a href="{{ '/Puppet-Status' | relative_url }}">Items</a></li>
-  <li><a href="{{ '/Field-Effects' | relative_url }}">Items</a></li>
+  <li><a href="{{ '/Puppet-Status' | relative_url }}">Puppet Status</a></li>
+  <li><a href="{{ '/Field-Effects' | relative_url }}">Field Effects</a></li>
 </ul>
 
