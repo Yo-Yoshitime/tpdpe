@@ -4,34 +4,49 @@ body {
     color:#252525;
 }
 
-.tab {
+.tab,
+.tab2,
+.tab3,
+{
   overflow: hidden;
-  border: 1px solid #ccc;
+  border: 2px solid #ccc;
   background-color: #f1f1f1;
 }
 
-.tab button {
+.tab button,
+.tab2 button,
+.tab3 button
+{
   background-color: inherit;
   float: left;
   border: none;
-  outline: none;
+  outline: 2px solid #ccc;
   cursor: pointer;
   padding: 14px 16px;
   transition: 0.3s;
   font-size: 17px;
 }
 
-.tab button:hover {
+.tab button:hover,
+.tab2 button:hover,
+.tab3 button:hover
+{
   background-color: #ddd;
 }
 
-.tab button.active {
-  background-color: #ccc;
+.tab button.active,
+.tab2 button.active,
+.tab3 button.active
+{
+  color: #3366CC;
 }
 
-.tabcontent {
+.tabcontent,
+.tabcontent2,
+.tabcontent3
+{
   display: none;
   padding: 6px 12px;
-  border: 1px solid #ccc;
+  border: none;
   border-top: none;
 }
