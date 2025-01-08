@@ -11,52 +11,90 @@
 
 <h2><span>Status Effects</span></h2>
 
-<div id="tabber-0" class="tabber tabber--live" '="">
- 
-<header class="tabber__header tabber__header--next-visible">
-<button class="tabber__header__prev" aria-hidden="true"></button>
- 
-<nav class="tabber__tabs" role="tablist">
-<a class="tabber__tab" id="tabber-tab-Poison-0" href="#tabber-tabpanel-Poison-0" role="tab" aria-controls="tabber-tabpanel-Poison-0" tabindex="0" aria-selected="true">Poison</a>
-<a class="tabber__tab" id="tabber-tab-Heavy_Poison-0" href="#tabber-tabpanel-Heavy_Poison-0" role="tab" aria-controls="tabber-tabpanel-Heavy_Poison-0" tabindex="-1" aria-selected="false">Heavy Poison</a>
-<a class="tabber__tab" id="tabber-tab-Burn-0" href="#tabber-tabpanel-Burn-0" role="tab" aria-controls="tabber-tabpanel-Burn-0" tabindex="-1" aria-selected="false">Burn</a>
-<a class="tabber__tab" id="tabber-tab-Heavy_Burn-0" href="#tabber-tabpanel-Heavy_Burn-0" role="tab" aria-controls="tabber-tabpanel-Heavy_Burn-0" tabindex="-1" aria-selected="false">Heavy Burn</a>
-<a class="tabber__tab" id="tabber-tab-Stopped-0" href="#tabber-tabpanel-Stopped-0" role="tab" aria-controls="tabber-tabpanel-Stopped-0" tabindex="-1" aria-selected="false">Stopped</a>
-<a class="tabber__tab" id="tabber-tab-Darkness-0" href="#tabber-tabpanel-Darkness-0" role="tab" aria-controls="tabber-tabpanel-Darkness-0" tabindex="-1" aria-selected="false">Darkness</a>
-<a class="tabber__tab" id="tabber-tab-Fear-0" href="#tabber-tabpanel-Fear-0" role="tab" aria-controls="tabber-tabpanel-Fear-0" tabindex="-1" aria-selected="false">Fear</a><a class="tabber__tab" id="tabber-tab-Paralyzed-0" href="#tabber-tabpanel-Paralyzed-0" role="tab" aria-controls="tabber-tabpanel-Paralyzed-0" tabindex="-1" aria-selected="false">Paralyzed</a>
-<a class="tabber__tab" id="tabber-tab-Weakness-0" href="#tabber-tabpanel-Weakness-0" role="tab" aria-controls="tabber-tabpanel-Weakness-0" tabindex="-1" aria-selected="false">Weakness</a></nav>
- 
-<button class="tabber__header__next" aria-hidden="true">
- 
-</button></header>
 
-<section class="tabber__section" style="height: 80px;">
- 
-<article class="tabber__panel" id="tabber-tabpanel-Poison-0" role="tabpanel" tabindex="0" aria-labelledby="tabber-tab-Poison-0"><p>Deals 1/8th HP at the end of every turn. Poison and Steel Types are immune to this condition.
-<br>Uses one slot.</p></article>
- 
-<article class="tabber__panel" id="tabber-tabpanel-Heavy_Poison-0" role="tabpanel" tabindex="0" aria-labelledby="tabber-tab-Heavy_Poison-0"><p>Deals damage at the ending of every turn. The damage increases by 1/16th each turn. Causing the Poison status on something that is already Poisoned will turn it into Heavy Poison. Poison and Steel Types are immune to this condition.
+<div class="tab">
+  <button class="tablinks" onclick="statusList(event, 'Poison')">Poison</button>
+  <button class="tablinks" onclick="statusList(event, 'Heavy_Poison')">Heavy Poison</button>
+  <button class="tablinks" onclick="statusList(event, 'Burn')">Burn</button>
+   <button class="tablinks" onclick="statusList(event, 'Heavy_Burn')">Heavy Burn</button>
+  <button class="tablinks" onclick="statusList(event, 'Stopped')">Stopped</button>
+  <button class="tablinks" onclick="statusList(event, 'Darkness')">Darkness</button>
+   <button class="tablinks" onclick="statusList(event, 'Fear')">Fear</button>
+  <button class="tablinks" onclick="statusList(event, 'Paralyze')">Paralyze</button>
+  <button class="tablinks" onclick="statusList(event, 'Shocked')">Shocked</button>
+   <button class="tablinks" onclick="statusList(event, 'Weakness')">Weakness</button>
+  <button class="tablinks" onclick="statusList(event, 'Heavy_Weakness')">Heavy Weakness</button>
+</div>
+
+
+<div id="Poison" class="tabcontent">
+<p>Deals 1/8th HP at the end of every turn. Poison and Steel Types are immune to this condition.
+<br>Uses one slot.</p>
+</div>
+
+<div id="Heavy_Poison" class="tabcontent">
+<p>Deals damage at the ending of every turn. The damage increases by 1/16th each turn. Causing the Poison status on something that is already Poisoned will turn it into Heavy Poison. Poison and Steel Types are immune to this condition.
 <br>Uses two slots.</p></article>
+</div>
 
-<article class="tabber__panel" id="tabber-tabpanel-Burn-0" role="tabpanel" tabindex="0" aria-labelledby="tabber-tab-Burn-0"><p>Deals 1/8th HP at the end of every turn. Fire Types are immune to this condition.
+<div id="Burn" class="tabcontent">
+<p>Deals 1/8th HP at the end of every turn. Fire Types are immune to this condition.
 <br>Uses one slot.</p></article>
+</div>
 
-<article class="tabber__panel" id="tabber-tabpanel-Heavy_Burn-0" role="tabpanel" tabindex="0" aria-labelledby="tabber-tab-Heavy_Burn-0"><p>Deals damage at the ending of every turn. The damage increases by 1/16th each turn. Causing the Burn status on something that is already Burned will turn it into Heavy Burn. Fire Types are immune to this condition.
-<br>Uses two slots.</p></article>
+<div id="Heavy_Burn" class="tabcontent">
+<p>Deals damage at the ending of every turn. The damage increases by 1/16th each turn. Causing the Burn status on something that is already Burned will turn it into Heavy Burn. Fire Types are immune to this condition.
+<br>Uses two slots.</p>
+</div>
 
-<article class="tabber__panel" id="tabber-tabpanel-Stopped-0" role="tabpanel" tabindex="0" aria-labelledby="tabber-tab-Stopped-0"><p>A Stopped Puppet cannot use any Skills for 2-4 turns.
-<br>Uses two slots.</p></article>
+<div id="Stopped" class="tabcontent">
+<p>A Stopped Puppet cannot use any Skills for 2-4 turns.
+<br>Uses two slots.</p>
+</div>
 
-<article class="tabber__panel" id="tabber-tabpanel-Darkness-0" role="tabpanel" tabindex="0" aria-labelledby="tabber-tab-Darkness-0"><p>Halves a Puppet's Focus Attack stat.
-<br>Uses one slot.</p></article>
+<div id="Darkness" class="tabcontent">
+<p>Halves a Puppet's Focus Attack stat.
+<br>Uses one slot.</p>
+</div>
 
-<article class="tabber__panel" id="tabber-tabpanel-Fear-0" role="tabpanel" tabindex="0" aria-labelledby="tabber-tab-Fear-0"><p>Halves a Puppet's Spread Attack stat.
-<br>Uses one slot.</p></article>
+<div id="Fear" class="tabcontent">
+<p>Halves a Puppet's Spread Attack stat.
+<br>Uses one slot.</p>
+</div>
 
-<article class="tabber__panel" id="tabber-tabpanel-Paralyzed-0" role="tabpanel" tabindex="0" aria-labelledby="tabber-tab-Paralyzed-0"><p>Quarters a Puppet's Speed stat. Electric Types are immune to this condition.
-<br>Uses one slot.</p></article>
+<div id="Paralyze" class="tabcontent">
+<p>Quarters a Puppet's Speed stat. Electric Types are immune to this condition.
+<br>Uses one slot.</p>
+</div>
 
-<article class="tabber__panel" id="tabber-tabpanel-Weakness-0" role="tabpanel" tabindex="0" aria-labelledby="tabber-tab-Weakness-0"><p>Prevents the use of Skills that recover HP, but Items that restore HP can still be used. Skills that drain the opponent's HP will still deal damage, but will not heal the user.
-<br>Uses one slot.</p></article>
+<div id="Shocked" class="tabcontent">
+<p>Quarters a Puppet's Speed stat and renders it unable to avoid any attacks for the duration of the status. Causing the Paralysis status on something that is already Paralyzed will turn it into Shocked. Electric types are immune to this condition.
+<br>Uses two slots.</p>
+</div>
 
-</section></div>
+<div id="Weakness" class="tabcontent">
+<p>Prevents the use of Skills that recover HP, but Items that restore HP can still be used. Skills that drain the opponent's HP will still deal damage, but will not heal the user.
+<br>Uses one slot.</p>
+</div>
+
+<div id="Heavy_Weakness" class="tabcontent">
+<p>Prevents the use of Skills that recover HP, but Items that restore HP can still be used. Skills that drain the opponent's HP will still deal damage, but will not heal the user. In addition, every skill usage will consume 2 SP, similar to when the opposing puppet has the ability <a href="/wiki/Unjustness" title="Unjustness">Unjustness</a> (also stacks with the abilities effect to drain 3 SP). Causing the Weakness status on something that is already Weak will turn it into Heavy Weakness.
+<br>Uses two slots.</p>
+</div>
+
+
+<script>
+function statusList(evt, Status) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+</script>
