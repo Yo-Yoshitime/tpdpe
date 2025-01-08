@@ -2,7 +2,7 @@
 
 <p>-Left Side is the type of the Skill being used, and Top Side is the type of the Puppet defending</p>
 <ul>
-<li>Be sure to reference both types when checking which type to use on them, for example, <a href="/Normal-Kogasa" title="Normal Kogasa">Normal Kogasa</a> is Water Wind, Wind is Weak to Steel, which is 2x, however, Water resists Steel, meaning it will actually only do 1x, because the Water type neutralizes the weakness to Steel caused by her secondary Wind typing.</li>
+<li>Be sure to reference both types when checking which type to use on them, for example, <a href="{{ '/Normal-Kogasa' | relative_url }}" title="Normal Kogasa">Normal Kogasa</a> is Water Wind, Wind is Weak to Steel, which is 2x, however, Water resists Steel, meaning it will actually only do 1x, because the Water type neutralizes the weakness to Steel caused by her secondary Wind typing.</li>
 </ul>
 
 
@@ -699,7 +699,7 @@
 <table class="table" style="border-style: solid; border-width: 1px; float:left;">
 <tbody><tr>
 <td>Status skills are not effected by these interactions.
-<ul><li>For example, Warped-type puppets can still be hit by Squall, despite being immune to Wind type moves. This trait is ignored by Type Immunity Abilities, such as <a href="Negative-Aura" title="Negative Aura">Negative Aura</a></li>
+<ul><li>For example, Warped-type puppets can still be hit by Squall, despite being immune to Wind type moves. This trait is ignored by Type Immunity Abilities, such as <a href="{{ '/Negative-Aura' | relative_url }}" title="Negative Aura">Negative Aura</a></li>
 <li>Puppets also have special benefits depending on their type:
 <ul><li><b>Fire:</b> Immune to the Burn and Heavy Burn statuses under normal conditions.</li>
 <li><b>Earth:</b> Immune to Dust Storm damage.</li>
@@ -708,7 +708,7 @@
 <li><b>Dark:</b> Immune to Bind Trap.</li>
 <li><b>Nether:</b> Always able to switch out of battle even while under the effects of Shadow Stitch, and when trapped by moves like Heavy Rain.</li>
 <li><b>Electric:</b> Immune to the Paralysis and Shocked statuses under normal conditions.</li>
-<li><b>Poison:</b> Clear all layers of Poison Trap on your side of the field when switching in, as long as the puppet does not have <a href="Air-Cushion" title="Air Cushion">Air Cushion</a>, and are immune to the Poisoned and Heavy Poisoned statuses under normal conditions.</li>
+<li><b>Poison:</b> Clear all layers of Poison Trap on your side of the field when switching in, as long as the puppet does not have <a href="{{ '/Air-Cushion' | relative_url }}" title="Air Cushion">Air Cushion</a>, and are immune to the Poisoned and Heavy Poisoned statuses under normal conditions.</li>
 <li><b>Dream:</b> Immune to Stopped status under normal conditions.</li></ul></li></ul>
 </td></tr></tbody></table>
 </section>
