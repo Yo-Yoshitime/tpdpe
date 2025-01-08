@@ -13,7 +13,7 @@
 <h1><span>Status Effects</span></h1>
 
 <div class="tab">
-  <button class="tablinks" onclick="statusList(event, 'Poison') id="defaultOpen"><b>Poison</b></button>
+  <button class="tablinks" onclick="statusList(event, 'Poison')" id="defaultOpen"><b>Poison</b></button>
   <button class="tablinks" onclick="statusList(event, 'Heavy_Poison')"><b>Heavy Poison</b></button>
   <button class="tablinks" onclick="statusList(event, 'Burn')"><b>Burn</b></button>
    <button class="tablinks" onclick="statusList(event, 'Heavy_Burn')"><b>Heavy Burn</b></button>
@@ -107,7 +107,7 @@ function statusList(evt, Status) {
 </p>
 
 <div class="tab2">
-  <button class="tablinks2" onclick="statusNoList(event, 'Seeded') id="defaultOpen2"><b>Seeded</b></button>
+  <button class="tablinks2" onclick="statusNoList(event, 'Seeded')" id="defaultOpen2"><b>Seeded</b></button>
   <button class="tablinks2" onclick="statusNoList(event, 'Claimed')"><b>Claimed</b></button>
   <button class="tablinks2" onclick="statusNoList(event, 'Shinigami')"><b>Shinigami</b></button>
   <button class="tablinks2" onclick="statusNoList(event, 'Rooted')"><b>Rooted</b></button>
@@ -169,7 +169,7 @@ function statusNoList(evt, StatusNo) {
 </p>
 
 <div class="tab3">
-  <button class="tablinks3" onclick="statusTempList(event, 'Confusion') id="defaultOpen3"><b>Confusion</b></button>
+  <button class="tablinks3" onclick="statusTempList(event, 'Confusion')" id="defaultOpen3"><b>Confusion</b></button>
   <button class="tablinks3" onclick="statusTempList(event, 'Bound')"><b>Bound</b></button>
   <button class="tablinks3" onclick="statusTempList(event, 'Restrained')"><b>Restrained</b></button>
   <button class="tablinks3" onclick="statusTempList(event, 'Flinch')"><b>Flinch</b></button>
