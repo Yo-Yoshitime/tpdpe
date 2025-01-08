@@ -9,8 +9,8 @@
 <p>Additionally, if a Puppet is trapped (either via <a href="{{ '/Abilities' | relative_url }}" title="Abilities">Ability</a> or <a href="{{ '/Skills' | relative_url }}" title="Skills">Skill</a>), they will still be able to switch out with Pivoting moves such as <a href="{{ '/Changeling' | relative_url }}" title="Changeling">Changeling</a> or <a href="{{ '/Lighting_Speed' | relative_url }}" title="Lightning Speed">Lightning Speed</a>, as well as being hit while holding the Retreat Manual item or attacking a Puppet holding the Eviction Notice item. Puppets with the <a href="/Peaceful" title="Peaceful">Peaceful</a> ability or Puppets that are <a href="/Nether" title="Nether">Nether</a>-type are able to ignore this restriction and switch regardless of the trapping method, even if it is self-inflicted, unless the Puppet is trapped through the <a href="/Restraint" title="Restraint">Restraint</a> ability.
 </p>
 
-<h2><span>Status Effects</span></h2>
 
+<h1><span>Status Effects</span></h1>
 
 <div class="tab">
   <button class="tablinks" onclick="statusList(event, 'Poison')">Poison</button>
@@ -95,6 +95,212 @@ function statusList(evt, Status) {
     tablinks[i].className = tablinks[i].className.replace(" active", "");
   }
   document.getElementById(Status).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+</script>
+
+
+<h2>Status Effects that take up no Status Slots</h2>
+<p><b>Note</b>: These statuses take up no slots, and can be received even if both Status slots are filled. The following status effects <b>can</b> be passed with the use of <a href="{{ '/Backup_Plan' | relative_url }}" title="Backup Plan">Backup Plan</a>, so be careful.
+</p>
+
+<div class="tab">
+  <button class="tablinks" onclick="statusNoList(event, 'Seeded')">Seeded</button>
+  <button class="tablinks" onclick="statusNoList(event, 'Claimed')">Claimed</button>
+  <button class="tablinks" onclick="statusNoList(event, 'Shinigami')">Shinigami</button>
+  <button class="tablinks" onclick="statusNoList(event, 'Rooted')">Rooted</button>
+  <button class="tablinks" onclick="statusNoList(event, 'Camouflage')">Camouflage</button>
+  <button class="tablinks" onclick="statusNoList(event, 'Substitute')">Substitute</button>
+  <button class="tablinks" onclick="statusNoList(event, 'Calamity')">Calamity</button>
+</div>
+
+
+<div id="Seeded" class="tabcontent">
+<p>Can only be caused by the Skill <a href="{{ '/Drain_Seed' | relative_url }}" title="Drain Seed">Drain Seed</a>. The puppet will receive damage at the end of each turn equal to 1/16th of their max HP, and the opponent will recover 100% of the HP absorbed. Nature type puppets are immune to this status. Can be removed by either switching out, or by using <a href="{{ '/Smash_Spin' | relative_url }}" title="Smash Spin">Smash Spin</a>. The seeded puppet's HP will be drained and absorbed by the opponent even if the original user of Drain Seed has switched out.</p>
+</div>
+
+<div id="Claimed" class="tabcontent">
+<p>Can only be caused by the Skill <a href="{{ '/Claim' | relative_url }}" title="Claim">Claim</a>. The puppet is unable to use the same skill twice in a row. If the affected puppet is holding a Choice item, they will be forced to use <a href="{{ '/Struggle' | relative_url }}" title="Struggle">Struggle</a> every other turn. Has no effect on the skill Struggle itself. Can be removed by switching out.</p>
+</div>
+
+<div id="Shinigami" class="tabcontent">
+<p>Can only be caused by the Skill <a href="{{ '/Shinigamis_Waltz' | relative_url }}" title="Shinigami's Waltz">Shinigami's Waltz</a>. The targeted puppet becomes possessed by a Shinigami, who drains 1/4 of the targeted puppet's max HP at the end of each turn. Can be removed by switching out.</p>
+</div>
+
+<div id="Rooted" class="tabcontent">
+<p>Can only be caused by the Skill <a href="{{ '/Fountain_of_Life' | relative_url }}" title="Fountain of Life">Fountain of Life</a>. The user roots themselves, becoming unable to switch via the Puppets menu or be blown away with moves such as <a href="{{ '/Squall' | relative_url }}" title="Squall">Squall</a> or <a href="{{ '/Charging_Stun' | relative_url }}" title="Charging Stun">Charging Stun</a>. However, the user will recover 6% of their maximum HP per turn. Can be removed by switching out via moves like <a href="{{ '/Changeling' | relative_url }}" title="Changeling">Changeling</a> or <a href="{{ '/Lightning_Speed' | relative_url }}" title="Lightning Speed">Lightning Speed</a>, by holding the Retreat Manual item and receiving damage, or by attacking an opposing Puppet holding the Eviction Notice item.</p>
+</div>
+
+<div id="Camouflage" class="tabcontent">
+<p>Can only be caused by the Skill <a href="{{ '/Camouflage' | relative_url }}" title="Camouflage">Camouflage</a>. Provides no benefit to the user, but allows Dark Sphere to skip Accuracy checks and deal double damage when used against Puppets with the Camouflage status.</p>
+</div>
+
+<div id="Substitute" class="tabcontent">
+<p>Can only be caused by the Skill <a href="{{ '/Magic_Barrier' | relative_url }}" title="Magic Barrier">Magic Barrier</a>. Puts up a barrier using a fourth (25%) of the user's maximum HP. The barrier has its own health bar, equivalent to the amount of health sacrificed to create it. The barrier can be passed through use of <a href="Backup_Plan" title="Backup Plan">Backup Plan</a>, maintaining its current HP value and being applied to the Puppet that is switched in.</p>
+</div>
+
+<div id="Calamity" class="tabcontent">
+<p>Inflicted on both sides by <a href="{{ '/Ruinous_Voice' | relative_url }}" title="Ruinous Voice">Ruinous Voice</a>. At the end of each turn, a counter ticks down by one, beginning at three. If the counter hits zero, the afflicted Puppet will faint regardless of condition. Using <a href="{{ '/Backup_Plan' | relative_url }}" title="Backup Plan">Backup Plan</a> while inflicted with <a href="{{ '/Ruinous_Voice' | relative_url }}" title="Ruinous Voice">Ruinous Voice</a> will pass the counter on to the Puppet that has switched in. Can be removed by switching out.</p>
+</div>
+
+
+<script>
+function statusNoList(evt, StatusNo) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(StatusNo).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+</script>
+
+<h1>Temporary Conditions</h1>
+<p><b>Note</b>: These statuses take up no slots, and can be received even if both Status slots are filled. The following status effects <b>cannot</b> be passed with the use of <a href="{{ '/Backup_Plan' | relative_url }}" title="Backup Plan">Backup Plan</a>.
+</p>
+
+<div class="tab">
+  <button class="tablinks" onclick="statusTempList(event, 'Confusion')">Confusion</button>
+  <button class="tablinks" onclick="statusTempList(event, 'Bound')">Bound</button>
+  <button class="tablinks" onclick="statusTempList(event, 'Restrained')">Restrained</button>
+  <button class="tablinks" onclick="statusTempList(event, 'Flinch')">Flinch</button>
+  <button class="tablinks" onclick="statusTempList(event, 'Stance_Broken')">Stance Broken</button>
+  <button class="tablinks" onclick="statusTempList(event, 'Upbeat')">Upbeat</button>
+  <button class="tablinks" onclick="statusTempList(event, 'Skill-Seal')">Skill-Seal</button>
+  <button class="tablinks" onclick="statusTempList(event, 'Word_Break')">Word Break</button>
+  <button class="tablinks" onclick="statusTempList(event, 'Electrified')">Electrified</button>
+  <button class="tablinks" onclick="statusTempList(event, 'Trapped')">Trapped</button>
+  <button class="tablinks" onclick="statusTempList(event, 'Mirage')">Mirage</button>
+  <button class="tablinks" onclick="statusTempList(event, 'Soaked')">Soaked</button>
+  <button class="tablinks" onclick="statusTempList(event, 'Ghostly')">Ghostly</button>
+  <button class="tablinks" onclick="statusTempList(event, 'Charged')">Charged</button>
+  <button class="tablinks" onclick="statusTempList(event, 'Bracing')">Bracing</button>
+  <button class="tablinks" onclick="statusTempList(event, 'Charging')">Charging</button>
+  <button class="tablinks" onclick="statusTempList(event, 'Invulnerable')">Invulnerable</button>
+  <button class="tablinks" onclick="statusTempList(event, 'Semi-Invulnerable')">Semi-Invulnerable</button>
+  <button class="tablinks" onclick="statusTempList(event, 'Recharging')">Recharging</button>
+  <button class="tablinks" onclick="statusTempList(event, 'Water_Veil')">Water Veil</button>
+  <button class="tablinks" onclick="statusTempList(event, 'Lucky_Rainbow')">Lucky Rainbow</button>
+</div>
+
+
+<div id="Confusion" class="tabcontent">
+<p>A Confused Puppet has a 50% chance of doing nothing for 1-4 turns.</p>
+</div>
+
+<div id="Bound" class="tabcontent">
+<p>The puppet is bound by the opposing puppet for 4-5 turns, and takes 1/16th max HP at the end of every turn, and is unable to switch out during the duration, unless they are a Nether type, holding a Substitute Tag, use a Pivoting Skill such as <a href="/wiki/Changeling" title="Changeling">Changeling</a>, forced out by a Phasing Skill such as <a href="/wiki/Squall" title="Squall">Squall</a>, removing the effect with <a href="/wiki/Smash_Spin" title="Smash Spin">Smash Spin</a>, trigger opponents Eviction Notice, or trigger your own Retreat Manual.</p>
+</div>
+
+<div id="Restrained" class="tabcontent">
+<p>Similar to Bound, except is instead triggered by attempting to use a Pivoting Skill on a puppet with the <a href="/wiki/Restraint" title="Restraint">Restraint</a> ability. When under this effect, the puppet is unable to switch out altogether for 2 turns, with exception of the same examples listed in Bound, except Pivoting Skills, since that's what triggers the status, as well as <a href="/wiki/Smash_Spin" title="Smash Spin">Smash Spin</a>.
+Additionally, this is the only form of trapping <a href="/wiki/Nether" title="Nether">Nether</a>-type Puppets are not immune to, and will be trapped regardless.</p>
+</div>
+
+<div id="Flinch" class="tabcontent">
+<p>Prevents a Puppet from using any Skills for one turn. A Flinch will only occur if the Puppet moves after its opponent.</p>
+</div>
+
+<div id="Stance_Broken" class="tabcontent">
+<p>Prevents a Puppet from avoiding any attacks for one full turn. Specifically, it causes the next attack used on the puppet affected with this status to skip an accuracy check, meaning all skills, including ones like <a href="/wiki/Shattering_Earth" title="Shattering Earth">Shattering Earth</a>, which normally are unaffected by increased accuracy, will always hit.</p>
+</div>
+
+<div id="Upbeat" class="tabcontent">
+<p>Can only be caused by the move <a href="/wiki/Upbeat" title="Upbeat">Upbeat</a>. The puppet becomes unable to use skills from the Status category for the next 3 turns after being affected. Fades after next 3 turns, or by switching out. Puppets with <a href="/wiki/Composed" title="Composed">Composed</a> or <a href="/wiki/Free_Will" title="Free Will">Free Will</a> are immune to this condition.</p>
+</div>
+
+<div id="Skill-Seal" class="tabcontent">
+<p>The puppet's last used move is unable to be used for the next 4 turns. If the affected puppet is holding a Choice item, or locked into using it by <a href="/wiki/Encourage" title="Encourage">Encourage</a>, it will be forced to use <a href="/wiki/Struggle" title="Struggle">Struggle</a> until the status fades. Ends after 4 full turns, or by switching out. Puppets with <a href="/wiki/Free_Will" title="Free Will">Free Will</a> are immune to this condition.</p>
+</div>
+
+<div id="Word_Break" class="tabcontent">
+<p>Almost identical to Skill-Seal, only difference being that it instead seals 2 random skills, instead of the last used one, and can also be used even if the opposing puppet hasn't used a skill yet. If the affected puppet is holding a Choice item, or locked into using it by <a href="/wiki/Encourage" title="Encourage">Encourage</a>, it will be forced to use <a href="/wiki/Struggle" title="Struggle">Struggle</a> until the status fades. Ends after 4 full turns, or by switching out. Puppets with <a href="/wiki/Free_Will" title="Free Will">Free Will</a> are immune to this condition.</p>
+</div>
+
+<div id="Electrified" class="tabcontent">
+<p>Changes the next skill the foe uses to be Electric-type, regardless of its original typing.</p>
+</div>
+
+<div id="Trapped" class="tabcontent">
+<h2><span class="mw-headline" id="Skills">Skills</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/wiki/Puppet_Status?action=edit&amp;section=1" title="Edit section: Skills"><span>edit</span></a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>The foe becomes unable to switch out until the user leaves the field, unless the user is <a href="/wiki/Nether" title="Nether">Nether</a>-type. Applied through the skill <a href="/wiki/Black_Hole" title="Black Hole">Black Hole</a>.
+</p>
+<h2><span class="mw-headline" id="Abilities">Abilities</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/wiki/Puppet_Status?action=edit&amp;section=2" title="Edit section: Abilities"><span>edit</span></a><span class="mw-editsection-bracket">]</span></span></h2>
+ <p><a href="/wiki/Shadow_Stitch" title="Shadow Stitch">Shadow Stitch</a> - Prevents the opponent from switching out, unless the opponent is <a href="/wiki/Nether" title="Nether">Nether</a>-type. This ability does not prevent fleeing from Wild Battles.<br><a href="/wiki/Adverse_Wind" title="Adverse Wind">Adverse Wind</a> - Prevents the opponent from switching out, unless the opponent is <a href="/wiki/Wind" title="Wind">Wind</a> or <a href="/wiki/Nether" title="Nether">Nether</a>-type. This ability does not prevent fleeing from Wild Battles.<br><a href="/wiki/Battle_Mania" title="Battle Mania">Battle Mania</a> - Prevents opposing <a href="/wiki/Fighting" title="Fighting">Fighting</a>-type Puppets from switching out. This ability does not prevent fleeing from Wild Battles.<br><a href="/wiki/Poison_Labyrinth" title="Poison Labyrinth">Poison Labyrinth</a> - Prevents the opponent from switching out, unless the opponent is <a href="/wiki/Poison" title="Poison">Poison</a> or <a href="/wiki/Nether" title="Nether">Nether</a>-type. This ability does not prevent fleeing from Wild Battles.
+<br><b>Note:</b>
+</p>
+Moves such as <a href="/wiki/Changeling" title="Changeling">Changeling</a> and <a href="/wiki/Lightning_Speed" title="Lightning Speed">Lightning Speed</a> still allow the user to switch out while applicable Skills or Abilities are in play. For an exception, check <a href="/wiki/Restraint" title="Restraint">Restraint</a>, though this rule only applies if a Puppet is trapped by <a href="/wiki/Black_Hole" title="Black Hole">Black Hole</a>, as a given Puppet cannot have two abilities simultaneously under normal conditions.<p class="mw-empty-elt"></p></article>
+ 
+</div>
+
+<div id="Mirage" class="tabcontent">
+<p>Can only be caused by the Skill <a href="/wiki/Mirage" title="Mirage">Mirage</a>. For the turn of use only, reflects incoming Status moves directed at the user back to the opponent. This effect is not persistent unlike <a href="/wiki/Curse_Return" title="Curse Return">Curse Return</a>.</p>
+</div>
+
+<div id="Soaked" class="tabcontent">
+<p>Changes the target's <a href="/wiki/Type_Chart" title="Type Chart">type</a> to <a href="/wiki/Water" title="Water">Water</a>. Can be removed by switching out. The skill fails on Puppets that are already <a href="/wiki/Water" title="Water">Water</a>-type, unless the Puppet has a secondary type.</p>
+</div>
+
+<div id="Ghostly" class="tabcontent">
+<p>Can only be caused by <a href="/wiki/Ghost_Chase" title="Ghost Chase">Ghost Chase</a>. Makes the user immune to <a href="/wiki/Fighting" title="Fighting">Fighting</a>-type moves, persists until switching out.</p>
+</div>
+
+<div id="Charged" class="tabcontent">
+<p>Can only be caused by <a href="/wiki/Lightning_Charge" title="Lightning Charge">Lightning Charge</a>. Raises the user's SpDef, and if an <a href="/wiki/Electric" title="Electric">Electric</a>-type Skill is used on the following turn, the resulting damage is doubled.
+<br><b>Note:</b>
+As mentioned on the <a href="/wiki/Lightning_Charge" title="Lightning Charge">Lightning Charge</a> page, the BP of the move is not doubled, triggering the effects of items like <a href="/wiki/Small_Bit" title="Small Bit">Small Bit</a> or <a href="/wiki/Wariness" title="Wariness">Wariness</a> if the Skill does not meet the BP threshold.</p>
+</div>
+
+<div id="Bracing" class="tabcontent">
+<p>The user attempts to survive the next incoming attack with 1 HP. May fail if used consecutively, and does not prevent fainting from damage over time such as Burn.</p>
+</div>
+
+<div id="Charging" class="tabcontent">
+<p>The effect changes depending on which skill is used. <a href="/wiki/Items" title="Items">Haste Charm</a> and <a href="/wiki/Fast_Talker" title="Fast Talker">Fast Talker</a> can skip the charging turn for the following moves, allowing the Skill portion to be used instantly.
+<br><a href="/wiki/Firm_Spirit" title="Firm Spirit">Firm Spirit</a> - On the first turn, the user's FoDef is raised. The attack is used on the second turn.
+<br><a href="/wiki/Gensokyo_Typhoon" title="Gensokyo Typhoon">Gensokyo Typhoon</a> - On the first turn, the user charges the Skill. The attack is used on the second turn.
+<br><a href="/wiki/Rainbow_Flowers" title="Rainbow Flowers">Rainbow Flowers</a> - On the first turn, the user charges the Skill. This charge turn is skipped if the Skill is used during <a href="/wiki/Weather" class="mw-redirect" title="Weather">Aurora</a>.
+<br><a href="/wiki/Meteor_Impact" title="Meteor Impact">Meteor Impact</a> - Present on the charge portion of the move, and is removed if the user is successfully targeted and damaged by an incoming Skill, causing the move to fail.</p>
+</div>
+
+<div id="Invulnerable" class="tabcontent">
+<p>Can only be caused by <a href="/wiki/Supernatural_Border" title="Supernatural Border">Supernatural Border</a> and <a href="/wiki/Thorned_Ivy" title="Thorned Ivy">Thorned Ivy</a>. Blocks incoming damage for the turn it is used, but does not block damage over time. Can be bypassed by <a href="/wiki/Shadow_Rush" title="Shadow Rush">Shadow Rush</a> and <a href="/wiki/Stalk_and_Murder" title="Stalk and Murder">Stalk and Murder</a>.</p>
+</div>
+
+<div id="Semi-Invulnerable" class="tabcontent">
+<p>Can only be caused by <a href="/wiki/Stalk_and_Murder" title="Stalk and Murder">Stalk and Murder</a>. The user becomes unable to be targeted by incoming damage, but can still take damage from sources such as Burn or Poison. If the charging portion of <a href="/wiki/Stalk_and_Murder" title="Stalk and Murder">Stalk and Murder</a> is skipped, Semi-Invulnerability will not apply.</p>
+</div>
+
+<div id="Recharging" class="tabcontent">
+<p>Applied after using <a href="/wiki/Aqua_Rake" title="Aqua Rake">Aqua Rake</a>, <a href="/wiki/Cataclysm" title="Cataclysm">Cataclysm</a>, <a href="/wiki/Deflagration" title="Deflagration">Deflagration</a>, <a href="/wiki/Pulse_Laser" title="Pulse Laser">Pulse Laser</a>, and <a href="/wiki/Vacuum_Rupture" title="Vacuum Rupture">Vacuum Rupture</a>. The user is inactionable on the turn following usage of the move, preventing selection of Fight, Puppets, Bag, or Flee.</p>
+</div>
+
+<div id="Water_Veil" class="tabcontent">
+<p>Can only be caused by <a href="/wiki/Water_Veil?action=edit&amp;redlink=1" class="new" title="Water Veil (page does not exist)">Water Veil</a>. For five turns following use of the Skill, the user's party cannot have their stats lowered by the opponent. Does not prevent Puppets on the user's team from lowering their own stats, through sources like <a href="/wiki/Volcano" title="Volcano">Volcano</a> and <a href="/wiki/Off-Season_Bloom" title="Off-Season Bloom">Off-Season Bloom</a>.</p>
+</div>
+
+<div id="Lucky_Rainbow" class="tabcontent">
+<p>Can only be caused by <a href="/wiki/Lucky_Rainbow" title="Lucky Rainbow">Lucky Rainbow</a>. For five turns following use of the Skill, the user's party cannot be inflicted with status conditions that take up a slot. <a href="/wiki/Lucky_Rainbow" title="Lucky Rainbow">Lucky Rainbow</a> does not prevent infliction of status from moves such as <a href="/wiki/Drain_Seed" title="Drain Seed">Drain Seed</a> or <a href="/wiki/Word_Break" title="Word Break">Word Break</a>.</p>
+</div>
+
+
+<script>
+function statusTempList(evt, statusTemp) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(statusTemp).style.display = "block";
   evt.currentTarget.className += " active";
 }
 </script>
