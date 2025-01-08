@@ -108,7 +108,7 @@ plugins:
   - jekyll-paginate
   - jekyll-mentions
   - jekyll-optional-front-matter
-
+  - jekyll-readme-index
   - jekyll-redirect-from
   - jekyll-remote-theme
   - jekyll-relative-links
