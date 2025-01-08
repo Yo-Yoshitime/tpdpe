@@ -8,7 +8,14 @@
     {% endif %}
 
     {% include git-wiki/sections/head/meta.html %}
-    {% include git-wiki/sections/head/scripts.html %}
+
+<script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
+
+
+<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+    crossorigin="anonymous"></script>
+<script src="{{ '/assets/js/checkLinks.js' | relative_url }}"></script>
+    
     {% include git-wiki/sections/head/styles.html %}
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.1.3/united/bootstrap.min.css">
