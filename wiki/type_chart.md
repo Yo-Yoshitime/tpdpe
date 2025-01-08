@@ -1,7 +1,7 @@
 -Left Side is the type of the Skill being used, and Top Side is the type of the Puppet defending
 * Be sure to reference both types when checking which type to use on them, for example, [Normal Kogasa]() is Water Wind, Wind is Weak to Steel, which is 2x, however, Water resists Steel, meaning it will actually only do 1x, because the Water type neutralizes the weakness to Steel caused by her secondary Wind typing.
 
-<table class="wikitable" style="border-style: solid; border-width: 1px; float:left;">
+<table class="table" style="border-style: solid; border-width: 1px; float:left;">
 <tbody><tr>
 <td style="text-align: center;">A/D
 </td>
