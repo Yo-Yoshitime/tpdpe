@@ -106,7 +106,7 @@ function statusList(evt, Status) {
 <p><b>Note</b>: These statuses take up no slots, and can be received even if both Status slots are filled. The following status effects <b>can</b> be passed with the use of <a href="{{ '/Backup_Plan' | relative_url }}" title="Backup Plan">Backup Plan</a>, so be careful.
 </p>
 
-<div class="tab">
+<div class="tab2">
   <button class="tablinks2" onclick="statusNoList(event, 'Seeded') id="defaultOpen2"><b>Seeded</b></button>
   <button class="tablinks2" onclick="statusNoList(event, 'Claimed')"><b>Claimed</b></button>
   <button class="tablinks2" onclick="statusNoList(event, 'Shinigami')"><b>Shinigami</b></button>
@@ -168,7 +168,7 @@ function statusNoList(evt, StatusNo) {
 <p><b>Note</b>: These statuses take up no slots, and can be received even if both Status slots are filled. The following status effects <b>cannot</b> be passed with the use of <a href="{{ '/Backup_Plan' | relative_url }}" title="Backup Plan">Backup Plan</a>.
 </p>
 
-<div class="tab">
+<div class="tab3">
   <button class="tablinks3" onclick="statusTempList(event, 'Confusion') id="defaultOpen3"><b>Confusion</b></button>
   <button class="tablinks3" onclick="statusTempList(event, 'Bound')"><b>Bound</b></button>
   <button class="tablinks3" onclick="statusTempList(event, 'Restrained')"><b>Restrained</b></button>
