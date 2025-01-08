@@ -699,13 +699,13 @@
 <td>Status skills are not effected by these interactions.
 <ul><li>For example, Warped-type puppets can still be hit by Squall, despite being immune to Wind type moves. This trait is ignored by Type Immunity Abilities, such as <a href="" title="Negative Aura">Negative Aura</a></li>
 <li>Puppets also have special benefits depending on their type:
-<ul><li>*Fire:* Immune to the Burn and Heavy Burn statuses under normal conditions.</li>
-<li>*Earth:* Immune to Dust Storm damage.</li>
-<li>*Steel:* Immune to Dust Storm damage, and the Poisoned and Heavy Poisoned statuses under normal conditions.</li>
-<li>*Wind:* Immune to Mine Trap.</li>
-<li>*Dark:* Immune to Bind Trap.</li>
-<li>*Nether:* Always able to switch out of battle even while under the effects of Shadow Stitch, and when trapped by moves like Heavy Rain.</li>
-<li>*Electric:* Immune to the Paralysis and Shocked statuses under normal conditions.</li>
-<li>*Poison:* Clear all layers of Poison Trap on your side of the field when switching in, as long as the puppet does not have <a href="" title="Air Cushion">Air Cushion</a>, and are immune to the Poisoned and Heavy Poisoned statuses under normal conditions.</li>
-<li>*Dream:* Immune to Stopped status under normal conditions.</li></ul></li></ul>
+<ul><li><b>Fire:</b> Immune to the Burn and Heavy Burn statuses under normal conditions.</li>
+<li><b>Earth:</b> Immune to Dust Storm damage.</li>
+<li><b>Steel:</b> Immune to Dust Storm damage, and the Poisoned and Heavy Poisoned statuses under normal conditions.</li>
+<li><b>Wind:</b> Immune to Mine Trap.</li>
+<li><b>Dark:</b> Immune to Bind Trap.</li>
+<li><b>Nether:</b> Always able to switch out of battle even while under the effects of Shadow Stitch, and when trapped by moves like Heavy Rain.</li>
+<li><b>Electric:</b> Immune to the Paralysis and Shocked statuses under normal conditions.</li>
+<li><b>Poison:</b> Clear all layers of Poison Trap on your side of the field when switching in, as long as the puppet does not have <a href="" title="Air Cushion">Air Cushion</a>, and are immune to the Poisoned and Heavy Poisoned statuses under normal conditions.</li>
+<li><b>Dream:</b> Immune to Stopped status under normal conditions.</li></ul></li></ul>
 </td></tr></tbody></table>
