@@ -669,3 +669,39 @@
 <td style="text-align: center;">
 </td></tr>
 </tbody></table>
+
+<table class="table" style="border-style: solid; border-width: 1px; float:left;">
+<tbody><tr>
+<th colspan="2" style="background-color: #DDDDDD;">Key
+</th></tr>
+<tr>
+<td style="text-align: center; width: 150px; background-color: #FFFFFF; color: #FB0127;"><b>Super Effective</b><br>(2x)
+</td>
+<td style="text-align: center; width: 26px; background-color: #FFFFFF; color: #FB0127;"><b>O</b>
+</td></tr>
+<tr>
+<td style="text-align: center; background-color: #FFFFFF; color: #3C00DA;"><b>Not Very Effective</b><br>(0.5x)
+</td>
+<td style="text-align: center; background-color: #FFFFFF; color: #3C00DA;"><b>△</b>
+</td></tr>
+<tr>
+<td style="text-align: center; background-color: #FFFFFF; color: #000000;"><b>No Effect</b><br>(0x)
+</td>
+<td style="text-align: center; background-color: #FFFFFF; color: #000000;"><b>X</b>
+</td></tr></tbody></table>
+
+<table class="table" style="border-style: solid; border-width: 1px; float:left;">
+<tbody><tr>
+<td>Status skills are not effected by these interactions.
+<ul><li>For example, Warped-type puppets can still be hit by Squall, despite being immune to Wind type moves. This trait is ignored by Type Immunity Abilities, such as <a href="" title="Negative Aura">Negative Aura</a></li>
+<li>Puppets also have special benefits depending on their type:
+<ul><li>Fire: Immune to the Burn and Heavy Burn statuses under normal conditions.</li>
+<li>Earth: Immune to Dust Storm damage.</li>
+<li>Steel: Immune to Dust Storm damage, and the Poisoned and Heavy Poisoned statuses under normal conditions.</li>
+<li>Wind: Immune to Mine Trap.</li>
+<li>Dark: Immune to Bind Trap.</li>
+<li>Nether: Always able to switch out of battle even while under the effects of Shadow Stitch, and when trapped by moves like Heavy Rain.</li>
+<li>Electric: Immune to the Paralysis and Shocked statuses under normal conditions.</li>
+<li>Poison: Clear all layers of Poison Trap on your side of the field when switching in, as long as the puppet does not have <a href="" title="Air Cushion">Air Cushion</a>, and are immune to the Poisoned and Heavy Poisoned statuses under normal conditions.</li>
+<li>Dream: Immune to Stopped status under normal conditions.</li></ul></li></ul>
+</td></tr></tbody></table>
