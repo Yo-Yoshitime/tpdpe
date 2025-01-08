@@ -1,4 +1,4 @@
-remote_theme: firstwiki/Wiki
+remote_theme: Drassil/git-wiki-theme
 # (string) Title of your wiki
 title: "Touhou Puppet Dance Performance: Encore"
 # (string) if you've installed your wiki in subfolder, you must change this configuration
