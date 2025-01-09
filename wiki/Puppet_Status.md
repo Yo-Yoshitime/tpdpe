@@ -16,13 +16,13 @@
   <button class="tablinks" onclick="statusList(event, 'Poison')" id="defaultOpen"><b>Poison</b></button>
   <button class="tablinks" onclick="statusList(event, 'Heavy_Poison')"><b>Heavy Poison</b></button>
   <button class="tablinks" onclick="statusList(event, 'Burn')"><b>Burn</b></button>
-   <button class="tablinks" onclick="statusList(event, 'Heavy_Burn')"><b>Heavy Burn</b></button>
+  <button class="tablinks" onclick="statusList(event, 'Heavy_Burn')"><b>Heavy Burn</b></button>
   <button class="tablinks" onclick="statusList(event, 'Stopped')"><b>Stopped</b></button>
   <button class="tablinks" onclick="statusList(event, 'Darkness')"><b>Darkness</b></button>
-   <button class="tablinks" onclick="statusList(event, 'Fear')"><b>Fear</b></button>
+  <button class="tablinks" onclick="statusList(event, 'Fear')"><b>Fear</b></button>
   <button class="tablinks" onclick="statusList(event, 'Paralyze')"><b>Paralyze</b></button>
   <button class="tablinks" onclick="statusList(event, 'Shocked')"><b>Shocked</b></button>
-   <button class="tablinks" onclick="statusList(event, 'Weakness')"><b>Weakness</b></button>
+  <button class="tablinks" onclick="statusList(event, 'Weakness')"><b>Weakness</b></button>
   <button class="tablinks" onclick="statusList(event, 'Heavy_Weakness')"><b>Heavy Weakness</b></button>
 </div>
 
@@ -82,25 +82,7 @@
 <br>Uses two slots.</p>
 </div>
 
-
-<script>
-function statusList(evt, Status) {
-  var i, tabcontent, tablinks;
-  tabcontent = document.getElementsByClassName("tabcontent");
-  for (i = 0; i < tabcontent.length; i++) {
-    tabcontent[i].style.display = "none";
-  }
-  tablinks = document.getElementsByClassName("tablinks");
-  for (i = 0; i < tablinks.length; i++) {
-    tablinks[i].className = tablinks[i].className.replace(" active", "");
-  }
-  document.getElementById(Status).style.display = "block";
-  evt.currentTarget.className += " active";
-}
-
- document.getElementById("defaultOpen").click();
-</script>
-
+<!-- Code in Js -->
 
 <h1>Status Effects that take up no Status Slots</h1>
 <p><b>Note</b>: These statuses take up no slots, and can be received even if both Status slots are filled. The following status effects <b>can</b> be passed with the use of <a href="{{ '/Backup_Plan' | relative_url }}" title="Backup Plan">Backup Plan</a>, so be careful.
