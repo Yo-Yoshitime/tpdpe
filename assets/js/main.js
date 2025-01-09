@@ -1,3 +1,4 @@
+(function(document) {
   function statusList(evt, Status) {
   var i, tabcontent, tablinks;
   tabcontent = document.getElementsByClassName("tabcontent");
@@ -44,4 +45,4 @@ function statusTempList(evt, statusTemp) {
   document.getElementById(statusTemp).style.display = "block";
   evt.currentTarget.className += " active";
 }
-
+})(document);
