@@ -1,5 +1,3 @@
-
-
   function statusList(evt, Status) {
   var i, tabcontent, tablinks;
   tabcontent = document.getElementsByClassName("tabcontent");
