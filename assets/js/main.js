@@ -1,4 +1,6 @@
-(function statusList(evt, Status) {
+
+  //Table 1
+  function statusList(evt, Status) {
   var i, tabcontent, tablinks;
   tabcontent = document.getElementsByClassName("tabcontent");
   for (i = 0; i < tabcontent.length; i++) {
@@ -13,4 +15,35 @@
 }
 
  document.getElementById("defaultOpen").click();
-})(jQuery);
+}
+
+//Table 2
+function statusNoList(evt, StatusNo) {
+  var i, tabcontent2, tablinks2;
+  tabcontent = document.getElementsByClassName("tabcontent2");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks2");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(StatusNo).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+
+//Table 3
+function statusTempList(evt, statusTemp) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent3");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks3");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(statusTemp).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+
