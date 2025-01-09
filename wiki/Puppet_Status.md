@@ -19,7 +19,7 @@
   <button class="tablinks" onclick="statusList(event, 'Poison')" id="defaultOpen">Poison</button>
   <button class="tablinks" onclick="statusList(event, 'Heavy_Poison')">Heavy Poison</button>
   <button class="tablinks" onclick="statusList(event, 'Burn')">Burn</button>
-  <button class="tablinks" onclick="statusList(event, 'Heavy_Burn')">Heavy Burn></button>
+  <button class="tablinks" onclick="statusList(event, 'Heavy_Burn')">Heavy Burn</button>
   <button class="tablinks" onclick="statusList(event, 'Stopped')">Stopped</button>
   <button class="tablinks" onclick="statusList(event, 'Darkness')">Darkness</button>
   <button class="tablinks" onclick="statusList(event, 'Fear')">Fear</button>
