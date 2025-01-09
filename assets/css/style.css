@@ -71,31 +71,34 @@ body {
   -webkit-transform: rotate(135deg);
 }
 
-.up {
+.arrow-up {
   transform: rotate(-135deg);
   -webkit-transform: rotate(-135deg);
 }
 
-.down {
+.arrow-down {
   transform: rotate(45deg);
   -webkit-transform: rotate(45deg);
 }
 
 /* Centro scroll wheel*/
 
-#center {
+#center,
+#center2,
+#center3
+{
   width: 100%;
   display: flex;
   overflow-x: scroll;
   float: left;
+  scroll-behavior: smooth;
 }
 
-#center::-webkit-scrollbar {
+#center::-webkit-scrollbar, 
+#center2::-webkit-scrollbar,
+#center3::-webkit-scrollbar
+{
 display: none;
-}
-
-* {
-    scroll-behavior: smooth;
 }
 
 .scroll-left{
