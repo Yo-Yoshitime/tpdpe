@@ -1,5 +1,5 @@
 
-  //Table 1
+
   function statusList(evt, Status) {
   var i, tabcontent, tablinks;
   tabcontent = document.getElementsByClassName("tabcontent");
@@ -17,7 +17,7 @@
  document.getElementById("defaultOpen").click();
 }
 
-//Table 2
+
 function statusNoList(evt, StatusNo) {
   var i, tabcontent2, tablinks2;
   tabcontent = document.getElementsByClassName("tabcontent2");
@@ -32,7 +32,7 @@ function statusNoList(evt, StatusNo) {
   evt.currentTarget.className += " active";
 }
 
-//Table 3
+
 function statusTempList(evt, statusTemp) {
   var i, tabcontent, tablinks;
   tabcontent = document.getElementsByClassName("tabcontent3");
