@@ -82,8 +82,6 @@
 <br>Uses two slots.</p>
 </div>
 
-<!-- Code in Js -->
-
 <h1>Status Effects that take up no Status Slots</h1>
 <p><b>Note</b>: These statuses take up no slots, and can be received even if both Status slots are filled. The following status effects <b>can</b> be passed with the use of <a href="{{ '/Backup_Plan' | relative_url }}" title="Backup Plan">Backup Plan</a>, so be careful.
 </p>
@@ -128,23 +126,6 @@
 </div>
 
 
-<script>
-function statusNoList(evt, StatusNo) {
-  var i, tabcontent2, tablinks2;
-  tabcontent = document.getElementsByClassName("tabcontent2");
-  for (i = 0; i < tabcontent.length; i++) {
-    tabcontent[i].style.display = "none";
-  }
-  tablinks = document.getElementsByClassName("tablinks2");
-  for (i = 0; i < tablinks.length; i++) {
-    tablinks[i].className = tablinks[i].className.replace(" active", "");
-  }
-  document.getElementById(StatusNo).style.display = "block";
-  evt.currentTarget.className += " active";
-}
-
-  document.getElementById("defaultOpen2").click();
-</script>
 
 <h1>Temporary Conditions</h1>
 <p><b>Note</b>: These statuses take up no slots, and can be received even if both Status slots are filled. The following status effects <b>cannot</b> be passed with the use of <a href="{{ '/Backup_Plan' | relative_url }}" title="Backup Plan">Backup Plan</a>.
@@ -273,21 +254,8 @@ As mentioned on the <a href="{{ '/Lighting_Charge' | relative_url }}" title="Lig
 <p>Can only be caused by <a href="{{ '/Lucky_Rainbow' | relative_url }}" title="Lucky Rainbow">Lucky Rainbow</a>. For five turns following use of the Skill, the user's party cannot be inflicted with status conditions that take up a slot. <a href="{{ '/Lucky_Rainbow' | relative_url }}" title="Lucky Rainbow">Lucky Rainbow</a> does not prevent infliction of status from moves such as <a href="{{ '/Drain_Seed' | relative_url }}" title="Drain Seed">Drain Seed</a> or <a href="{{ '/Word_Break' | relative_url }}" title="Word Break">Word Break</a>.</p>
 </div>
 
-
 <script>
-function statusTempList(evt, statusTemp) {
-  var i, tabcontent, tablinks;
-  tabcontent = document.getElementsByClassName("tabcontent3");
-  for (i = 0; i < tabcontent.length; i++) {
-    tabcontent[i].style.display = "none";
-  }
-  tablinks = document.getElementsByClassName("tablinks3");
-  for (i = 0; i < tablinks.length; i++) {
-    tablinks[i].className = tablinks[i].className.replace(" active", "");
-  }
-  document.getElementById(statusTemp).style.display = "block";
-  evt.currentTarget.className += " active";
-}
-
+  document.getElementById("defaultOpen").click();
+  document.getElementById("defaultOpen2").click();
   document.getElementById("defaultOpen3").click();
 </script>
