@@ -13,9 +13,8 @@
     crossorigin="anonymous"></script>
     <script src="{{ '/assets/js/checkLinks.js' | relative_url }}"></script>
     
-    {% include git-wiki/sections/head/styles.html %}
-
     <link rel="stylesheet" href="{{ '/assets/css/github.css?v=' | append: site.github.build_revision | relative_url }}">
+    {% include git-wiki/sections/head/styles.html %}
     
     {% if site.inc_after_head %}
     {% include {{ site.inc_after_head }} %}
