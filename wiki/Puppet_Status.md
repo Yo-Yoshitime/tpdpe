@@ -13,6 +13,9 @@
 <h1><span>Status Effects</span></h1>
 
 <div class="tab">
+ <div id="center">
+  <button class="scroll-left" onclick="ScrollLeft()"><i class="arrow arrow-left"></i></button>
+  
   <button class="tablinks" onclick="statusList(event, 'Poison')" id="defaultOpen"><b>Poison</b></button>
   <button class="tablinks" onclick="statusList(event, 'Heavy_Poison')"><b>Heavy Poison</b></button>
   <button class="tablinks" onclick="statusList(event, 'Burn')"><b>Burn</b></button>
@@ -24,6 +27,9 @@
   <button class="tablinks" onclick="statusList(event, 'Shocked')"><b>Shocked</b></button>
   <button class="tablinks" onclick="statusList(event, 'Weakness')"><b>Weakness</b></button>
   <button class="tablinks" onclick="statusList(event, 'Heavy_Weakness')"><b>Heavy Weakness</b></button>
+
+  <button class="scroll-right" onclick="ScrollRight()"><i class="arrow arrow-right"></i></button>
+  </div>
 </div>
 
 
@@ -87,6 +93,9 @@
 </p>
 
 <div class="tab2">
+ <div id="center2">
+  <button class="scroll-left" onclick="ScrollLeft2()"><i class="arrow arrow-left"></i></button>
+  
   <button class="tablinks2" onclick="statusNoList(event, 'Seeded')" id="defaultOpen2"><b>Seeded</b></button>
   <button class="tablinks2" onclick="statusNoList(event, 'Claimed')"><b>Claimed</b></button>
   <button class="tablinks2" onclick="statusNoList(event, 'Shinigami')"><b>Shinigami</b></button>
@@ -94,6 +103,9 @@
   <button class="tablinks2" onclick="statusNoList(event, 'Camouflage')"><b>Camouflage</b></button>
   <button class="tablinks2" onclick="statusNoList(event, 'Substitute')"><b>Substitute</b></button>
   <button class="tablinks2" onclick="statusNoList(event, 'Calamity')"><b>Calamity</b></button>
+
+  <button class="scroll-right" onclick="ScrollRight2()"><i class="arrow arrow-right"></i></button>
+ </div>
 </div>
 
 
@@ -132,6 +144,9 @@
 </p>
 
 <div class="tab3">
+ <div id="center3">
+  <button class="scroll-left" onclick="ScrollLeft3()"><i class="arrow arrow-left"></i></button>
+ 
   <button class="tablinks3" onclick="statusTempList(event, 'Confusion')" id="defaultOpen3"><b>Confusion</b></button>
   <button class="tablinks3" onclick="statusTempList(event, 'Bound')"><b>Bound</b></button>
   <button class="tablinks3" onclick="statusTempList(event, 'Restrained')"><b>Restrained</b></button>
@@ -153,6 +168,9 @@
   <button class="tablinks3" onclick="statusTempList(event, 'Recharging')"><b>Recharging</b></button>
   <button class="tablinks3" onclick="statusTempList(event, 'Water_Veil')"><b>Water Veil</b></button>
   <button class="tablinks3" onclick="statusTempList(event, 'Lucky_Rainbow')"><b>Lucky Rainbow</b></button>
+
+  <button class="scroll-right" onclick="ScrollRight3()"><i class="arrow arrow-right"></i></button>
+ </div>
 </div>
 
 
@@ -253,9 +271,3 @@ As mentioned on the <a href="{{ '/Lighting_Charge' | relative_url }}" title="Lig
 <div id="Lucky_Rainbow" class="tabcontent3">
 <p>Can only be caused by <a href="{{ '/Lucky_Rainbow' | relative_url }}" title="Lucky Rainbow">Lucky Rainbow</a>. For five turns following use of the Skill, the user's party cannot be inflicted with status conditions that take up a slot. <a href="{{ '/Lucky_Rainbow' | relative_url }}" title="Lucky Rainbow">Lucky Rainbow</a> does not prevent infliction of status from moves such as <a href="{{ '/Drain_Seed' | relative_url }}" title="Drain Seed">Drain Seed</a> or <a href="{{ '/Word_Break' | relative_url }}" title="Word Break">Word Break</a>.</p>
 </div>
-
-<script>
-  document.getElementById("defaultOpen").click();
-  document.getElementById("defaultOpen2").click();
-  document.getElementById("defaultOpen3").click();
-</script>
