@@ -1,4 +1,4 @@
-function statusList(evt, Status) {
+(function statusList(evt, Status) {
   var i, tabcontent, tablinks;
   tabcontent = document.getElementsByClassName("tabcontent");
   for (i = 0; i < tabcontent.length; i++) {
@@ -13,3 +13,4 @@ function statusList(evt, Status) {
 }
 
  document.getElementById("defaultOpen").click();
+})(jQuery);
