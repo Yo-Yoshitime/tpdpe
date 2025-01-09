@@ -6,7 +6,7 @@
 
 <p>Some types, such as <a href="{{ '/Fire' | relative_url }}" title="Fire">Fire</a> and <a href="{{ '/Poison' | relative_url }}" title="Poison">Poison</a> have innate status immunity under normal conditions (listed on the <a href="{{ '/Type_Chart' | relative_url }}" title="Type Chart">Type Chart</a> page), <a href="{{ '/Resonance' | relative_url }}" title="Resonance">Resonance</a> bypasses this immunity if a status is passed on to the aforementioned types. Further immunities are listed under the respective status condition.</p>
 
-<p>Additionally, if a Puppet is trapped (either via <a href="{{ '/Abilities' | relative_url }}" title="Abilities">Ability</a> or <a href="{{ '/Skills' | relative_url }}" title="Skills">Skill</a>), they will still be able to switch out with Pivoting moves such as <a href="{{ '/Changeling' | relative_url }}" title="Changeling">Changeling</a> or <a href="{{ '/Lighting_Speed' | relative_url }}" title="Lightning Speed">Lightning Speed</a>, as well as being hit while holding the Retreat Manual item or attacking a Puppet holding the Eviction Notice item. Puppets with the <a href="/Peaceful" title="Peaceful">Peaceful</a> ability or Puppets that are <a href="/Nether" title="Nether">Nether</a>-type are able to ignore this restriction and switch regardless of the trapping method, even if it is self-inflicted, unless the Puppet is trapped through the <a href="/Restraint" title="Restraint">Restraint</a> ability.
+<p>Additionally, if a Puppet is trapped (either via <a href="{{ '/Abilities' | relative_url }}" title="Abilities">Ability</a> or <a href="{{ '/Skills' | relative_url }}" title="Skills">Skill</a>), they will still be able to switch out with Pivoting moves such as <a href="{{ '/Changeling' | relative_url }}" title="Changeling">Changeling</a> or <a href="{{ '/Lighting_Speed' | relative_url }}" title="Lightning Speed">Lightning Speed</a>, as well as being hit while holding the Retreat Manual item or attacking a Puppet holding the Eviction Notice item. Puppets with the <a href="{{ '/Peaceful' | relative_url }}" title="Peaceful">Peaceful</a> ability or Puppets that are <a href="{{ '/Nether' | relative_url }}" title="Nether">Nether</a>-type are able to ignore this restriction and switch regardless of the trapping method, even if it is self-inflicted, unless the Puppet is trapped through the <a href="{{ '/Restraint' | relative_url }}" title="Restraint">Restraint</a> ability.
 </p>
 
 
@@ -16,17 +16,17 @@
  <div id="center">
   <button class="scroll-left" onclick="ScrollLeft()"><i class="arrow arrow-left"></i></button>
   
-  <button class="tablinks" onclick="statusList(event, 'Poison')" id="defaultOpen"><b>Poison</b></button>
-  <button class="tablinks" onclick="statusList(event, 'Heavy_Poison')"><b>Heavy Poison</b></button>
-  <button class="tablinks" onclick="statusList(event, 'Burn')"><b>Burn</b></button>
-  <button class="tablinks" onclick="statusList(event, 'Heavy_Burn')"><b>Heavy Burn</b></button>
-  <button class="tablinks" onclick="statusList(event, 'Stopped')"><b>Stopped</b></button>
-  <button class="tablinks" onclick="statusList(event, 'Darkness')"><b>Darkness</b></button>
-  <button class="tablinks" onclick="statusList(event, 'Fear')"><b>Fear</b></button>
-  <button class="tablinks" onclick="statusList(event, 'Paralyze')"><b>Paralyze</b></button>
-  <button class="tablinks" onclick="statusList(event, 'Shocked')"><b>Shocked</b></button>
-  <button class="tablinks" onclick="statusList(event, 'Weakness')"><b>Weakness</b></button>
-  <button class="tablinks" onclick="statusList(event, 'Heavy_Weakness')"><b>Heavy Weakness</b></button>
+  <button class="tablinks" onclick="statusList(event, 'Poison')" id="defaultOpen">Poison</button>
+  <button class="tablinks" onclick="statusList(event, 'Heavy_Poison')">Heavy Poison</button>
+  <button class="tablinks" onclick="statusList(event, 'Burn')">Burn</button>
+  <button class="tablinks" onclick="statusList(event, 'Heavy_Burn')">Heavy Burn></button>
+  <button class="tablinks" onclick="statusList(event, 'Stopped')">Stopped</button>
+  <button class="tablinks" onclick="statusList(event, 'Darkness')">Darkness</button>
+  <button class="tablinks" onclick="statusList(event, 'Fear')">Fear</button>
+  <button class="tablinks" onclick="statusList(event, 'Paralyze')">Paralyze</button>
+  <button class="tablinks" onclick="statusList(event, 'Shocked')">Shocked</button>
+  <button class="tablinks" onclick="statusList(event, 'Weakness')">Weakness</button>
+  <button class="tablinks" onclick="statusList(event, 'Heavy_Weakness')">Heavy Weakness</button>
 
   <button class="scroll-right" onclick="ScrollRight()"><i class="arrow arrow-right"></i></button>
   </div>
@@ -96,13 +96,13 @@
  <div id="center2">
   <button class="scroll-left" onclick="ScrollLeft2()"><i class="arrow arrow-left"></i></button>
   
-  <button class="tablinks2" onclick="statusNoList(event, 'Seeded')" id="defaultOpen2"><b>Seeded</b></button>
-  <button class="tablinks2" onclick="statusNoList(event, 'Claimed')"><b>Claimed</b></button>
-  <button class="tablinks2" onclick="statusNoList(event, 'Shinigami')"><b>Shinigami</b></button>
-  <button class="tablinks2" onclick="statusNoList(event, 'Rooted')"><b>Rooted</b></button>
-  <button class="tablinks2" onclick="statusNoList(event, 'Camouflage')"><b>Camouflage</b></button>
-  <button class="tablinks2" onclick="statusNoList(event, 'Substitute')"><b>Substitute</b></button>
-  <button class="tablinks2" onclick="statusNoList(event, 'Calamity')"><b>Calamity</b></button>
+  <button class="tablinks2" onclick="statusNoList(event, 'Seeded')" id="defaultOpen2">Seeded</button>
+  <button class="tablinks2" onclick="statusNoList(event, 'Claimed')">Claimed</button>
+  <button class="tablinks2" onclick="statusNoList(event, 'Shinigami')">Shinigami</button>
+  <button class="tablinks2" onclick="statusNoList(event, 'Rooted')">Rooted</button>
+  <button class="tablinks2" onclick="statusNoList(event, 'Camouflage')">Camouflage</button>
+  <button class="tablinks2" onclick="statusNoList(event, 'Substitute')">Substitute</button>
+  <button class="tablinks2" onclick="statusNoList(event, 'Calamity')">Calamity</button>
 
   <button class="scroll-right" onclick="ScrollRight2()"><i class="arrow arrow-right"></i></button>
  </div>
@@ -147,27 +147,27 @@
  <div id="center3">
   <button class="scroll-left" onclick="ScrollLeft3()"><i class="arrow arrow-left"></i></button>
  
-  <button class="tablinks3" onclick="statusTempList(event, 'Confusion')" id="defaultOpen3"><b>Confusion</b></button>
-  <button class="tablinks3" onclick="statusTempList(event, 'Bound')"><b>Bound</b></button>
-  <button class="tablinks3" onclick="statusTempList(event, 'Restrained')"><b>Restrained</b></button>
-  <button class="tablinks3" onclick="statusTempList(event, 'Flinch')"><b>Flinch</b></button>
-  <button class="tablinks3" onclick="statusTempList(event, 'Stance_Broken')"><b>Stance Broken</b></button>
-  <button class="tablinks3" onclick="statusTempList(event, 'Upbeat')"><b>Upbeat</b></button>
-  <button class="tablinks3" onclick="statusTempList(event, 'Skill-Seal')"><b>Skill-Seal</b></button>
-  <button class="tablinks3" onclick="statusTempList(event, 'Word_Break')"><b>Word Break</b></button>
-  <button class="tablinks3" onclick="statusTempList(event, 'Electrified')"><b>Electrified</b></button>
-  <button class="tablinks3" onclick="statusTempList(event, 'Trapped')"><b>Trapped</b></button>
-  <button class="tablinks3" onclick="statusTempList(event, 'Mirage')"><b>Mirage</b></button>
-  <button class="tablinks3" onclick="statusTempList(event, 'Soaked')"><b>Soaked</b></button>
-  <button class="tablinks3" onclick="statusTempList(event, 'Ghostly')"><b>Ghostly</b></button>
-  <button class="tablinks3" onclick="statusTempList(event, 'Charged')"><b>Charged</b></button>
-  <button class="tablinks3" onclick="statusTempList(event, 'Bracing')"><b>Bracing</b></button>
-  <button class="tablinks3" onclick="statusTempList(event, 'Charging')"><b>Charging</b></button>
-  <button class="tablinks3" onclick="statusTempList(event, 'Invulnerable')"><b>Invulnerable</b></button>
-  <button class="tablinks3" onclick="statusTempList(event, 'Semi-Invulnerable')"><b>Semi-Invulnerable</b></button>
-  <button class="tablinks3" onclick="statusTempList(event, 'Recharging')"><b>Recharging</b></button>
-  <button class="tablinks3" onclick="statusTempList(event, 'Water_Veil')"><b>Water Veil</b></button>
-  <button class="tablinks3" onclick="statusTempList(event, 'Lucky_Rainbow')"><b>Lucky Rainbow</b></button>
+  <button class="tablinks3" onclick="statusTempList(event, 'Confusion')" id="defaultOpen3">Confusion</button>
+  <button class="tablinks3" onclick="statusTempList(event, 'Bound')">Bound</button>
+  <button class="tablinks3" onclick="statusTempList(event, 'Restrained')">Restrained</button>
+  <button class="tablinks3" onclick="statusTempList(event, 'Flinch')">Flinch</button>
+  <button class="tablinks3" onclick="statusTempList(event, 'Stance_Broken')">Stance Broken</button>
+  <button class="tablinks3" onclick="statusTempList(event, 'Upbeat')">Upbeat</button>
+  <button class="tablinks3" onclick="statusTempList(event, 'Skill-Seal')">Skill-Seal</button>
+  <button class="tablinks3" onclick="statusTempList(event, 'Word_Break')">Word Break</button>
+  <button class="tablinks3" onclick="statusTempList(event, 'Electrified')">Electrified</button>
+  <button class="tablinks3" onclick="statusTempList(event, 'Trapped')">Trapped</button>
+  <button class="tablinks3" onclick="statusTempList(event, 'Mirage')">Mirage</button>
+  <button class="tablinks3" onclick="statusTempList(event, 'Soaked')">Soaked</button>
+  <button class="tablinks3" onclick="statusTempList(event, 'Ghostly')">Ghostly</button>
+  <button class="tablinks3" onclick="statusTempList(event, 'Charged')">Charged</button>
+  <button class="tablinks3" onclick="statusTempList(event, 'Bracing')">Bracing</button>
+  <button class="tablinks3" onclick="statusTempList(event, 'Charging')">Charging</button>
+  <button class="tablinks3" onclick="statusTempList(event, 'Invulnerable')">Invulnerable</button>
+  <button class="tablinks3" onclick="statusTempList(event, 'Semi-Invulnerable')">Semi-Invulnerable</button>
+  <button class="tablinks3" onclick="statusTempList(event, 'Recharging')">Recharging</button>
+  <button class="tablinks3" onclick="statusTempList(event, 'Water_Veil')">Water Veil</button>
+  <button class="tablinks3" onclick="statusTempList(event, 'Lucky_Rainbow')">Lucky Rainbow</button>
 
   <button class="scroll-right" onclick="ScrollRight3()"><i class="arrow arrow-right"></i></button>
  </div>
