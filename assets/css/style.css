@@ -12,6 +12,14 @@
  font-weight: normal;
  }
 
+#Types td{
+  padding: 5px 5px 5px 5px;
+}
+
+.table_list td{
+  padding: 5px 5px 5px 5px;
+}
+
 .tab,
 .tab2,
 .tab3
