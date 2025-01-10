@@ -5,9 +5,7 @@
 <li>Be sure to reference both types when checking which type to use on them, for example, <a href="{{ '/Normal-Kogasa' | relative_url }}" title="Normal Kogasa">Normal Kogasa</a> is Water Wind, Wind is Weak to Steel, which is 2x, however, Water resists Steel, meaning it will actually only do 1x, because the Water type neutralizes the weakness to Steel caused by her secondary Wind typing.</li>
 </ul>
 
-
-<section class="tabber__section" style="height: 1228.38px;">
-<table id="Types">
+<table class="table_encore">
 <tbody><tr>
 <td style="text-align: center;">A/D
 </td>
@@ -711,4 +709,3 @@
 <li><b>Poison:</b> Clear all layers of Poison Trap on your side of the field when switching in, as long as the puppet does not have <a href="{{ '/Air-Cushion' | relative_url }}" title="Air Cushion">Air Cushion</a>, and are immune to the Poisoned and Heavy Poisoned statuses under normal conditions.</li>
 <li><b>Dream:</b> Immune to Stopped status under normal conditions.</li></ul></li></ul>
 </td></tr></tbody></table>
-</section>
