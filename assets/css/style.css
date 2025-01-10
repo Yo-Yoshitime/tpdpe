@@ -17,6 +17,7 @@
   border-width: 1px;
   float:left;
   font-size: 14px;
+  width: auto;
 }
 
 #type_chart td{
