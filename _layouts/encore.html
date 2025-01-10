@@ -22,7 +22,7 @@
 
 </head>
     
-<body class="mediawiki">
+<body>
     <div class="wrapper">
                 {% include git-wiki/sections/header/header.html %}
                 <div class="git-wiki-page">
@@ -33,7 +33,9 @@
                     {% endif %}
 
                     <div id="git-wiki-content">
-                        {{ content }}
+                        <div id="mediawiki">
+                            {{ content }}
+                        </div>
                     </div>
 
                     {% if site.inc_after_content %}
