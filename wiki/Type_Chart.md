@@ -7,7 +7,7 @@
 
 
 <section class="tabber__section" style="height: 1228.38px;">
-<table id="Types" style="border-style: solid; border-width: 1px; float:left;">
+<table id="Types">
 <tbody><tr>
 <td style="text-align: center;">A/D
 </td>
