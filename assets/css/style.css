@@ -12,14 +12,15 @@
  font-weight: normal;
  }
 
-.table_encore {
+#type_chart {
   border-style: solid;
   border-width: 1px;
   float:left;
+  font-size: 14px;
 }
 
-.table_encore td{
-  padding: 3px 3px 3px 3px;
+#type_chart td{
+  padding: 4px 4px 4px 4px;
 }
 
 .tab,
