@@ -23,10 +23,10 @@
 <h2><span>Effect</span></h2>
 <p>Default Weather, no additional effects.</p>
 <h2><span>Moves</span></h2>
-<h3><span>Change Weather to Clear</span></h3>
+<h3><span><b>Change Weather to Clear</b></span></h3>
 <ul><li><a href="{{ '/Sunbeam_Dance' | relative_url }}" title="Sunbeam Dance">Sunbeam Dance</a> - While another Weather effect is currently active, deals 2x damage, then sets weather to Clear.</li>
 <li><a href="{{ '/Passing_Breeze' | relative_url }}" title="Passing Breeze">Passing Breeze</a> - While another Weather effect is currently active, deals 2x damage, then sets weather to Clear.</li></ul>
-<h3><span>Have Different Effects when Weather is Clear</span></h3>
+<h3><span><b>Have Different Effects when Weather is Clear</b></span></h3>
 <ul><li><a href="{{ '/Heavenly_Blessing' | relative_url }}" title="Heavenly Blessing">Heavenly Blessing</a> - While no weather is currently active, is treated as a normal attack.</li>
 <li><a href="{{ '/Heveanly_Influence' | relative_url }}" title="Heavenly Influence">Heavenly Influence</a> - While no weather is currently active, is treated as a normal attack.</li></ul>
 <h2><span>Abilities</span></h2>
@@ -36,9 +36,54 @@
 </div>
 
 <div id="Calm" class="tabcontent">
+<h2><span>Effect</span></h2>
+<p><b><a href="{{ '/Weather_Calm' | relative_url }}" title="Weather Calm">Calm</a></b> prevents additional effects of skills from occurring. It is essentially <a href="{{ '/Poker_Face' | relative_url }}" title="Poker Face">Poker Face</a> as a field effect. 
+</p>
+<ul><li>Additional effects are the effects listed on attacking skills that do something besides damage, like "10% chance to scare opponent".</li>
+<li>It also works on skills that normally have guaranteed secondary effects, including <a href="{{ '/Raid' | relative_url }}" title="Raid">Raid</a>.</li>
+<li>It does not have any effect on increased critical hit rate skills, such as <a href="{{ '/Rocky_Barrage' | relative_url }}" title="Rocky Barrage">Rocky Barrage</a>. However, guaranteed critical hit skills, like <a href="{{ '/Geyser' | relative_url }}" title="Geyser">Geyser</a> are affected, but instead of losing their effect, they just become increased critical hit rate skills.</li>
+<li>It also disable One-Hit KO skills.</li></ul>
+<h2><span>Skills</span></h2>
+<h3><span><b>Change Weather to Calm</b></span></h3>
+<ul><li><a href="{{ '/Weather_Calm' | relative_url }}" title="Weather Calm">Weather Calm</a> - Changes current weather to Calm, if not already active, for 5 turns (increases to 8 turns if holding an Almighty or Silent Godstone), if already active, the skill fails without reseting turn limit.</li>
+<li><a href="{{ '/Realm_Serenity' | relative_url }}" title="Realm Serenity">Realm Serenity</a> - Changes the current weather to Calm, and terrain to Seiryu for 5 turns, even if Calm or Seiryu are already active. Unaffected by Almighty of Silent Godstone, but can be reused while still active to reset the turn limit to 5.</li></ul>
+<h3><span><b>Have Different Effects when Weather is Calm</b></span></h3>
+<ul><li><a href="{{ '/Sunbeam_Dance' | relative_url }}" title="Sunbeam Dance">Sunbeam Dance</a> - While any Weather effect is currently active, except Clear, deals 2x damage, then sets weather to Clear.</li>
+<li><a href="{{ '/Passing_Breeze' | relative_url }}" title="Passing Breeze">Passing Breeze</a> - While any Weather effect is currently active, except Clear, deals 2x damage, then sets weather to Clear.</li>
+<li><a href="{{ '/Heavenly_Blessing' | relative_url }}" title="Heavenly Blessing">Heavenly Blessing</a> - While the weather is currently Calm, deals 2x damage and skills type becomes Wind.</li>
+<li><a href="{{ '/Heavenly_Influence' | relative_url }}" title="Heavenly Influence">Heavenly Influence</a> - While the weather is currently Calm, deals 2x damage and skills type becomes Wind.</li></ul>
+<h2><span>Abilities</span></h2>
+<ul><li><a href="{{ '/Phlegmatic' | relative_url }}" title="Phlegmatic">Phlegmatic</a> - Sets Calm upon switching in, if not already active, for 5 turns, or 8 if holding a Almighty of Silent Godstone.</li>
+<li><a href="{{ '/Stargazer' | relative_url }}" title="Stargazer">Stargazer</a> - When using <a href="/wiki/{{ '/Weather_Calm' | relative_url }}" title="Weather Calm">Weather Calm</a>, Calm will be permanently applied to the field until end of battle, or forcibly changed/removed by a skill or ability. (<a href="{{ '/Speed_Renko' | relative_url }}" title="Speed Renko">Speed Renko</a> only)</li></ul>
+<h3><span><b>Gain Effects when Calm is Active</b></span></h3>
+<ul><li><a href="{{ '/Breather' | relative_url }}" title="Breather">Breather</a> - While Calm is active, this puppets FoDef is increased by 50%, and recover 1/16th max HP at end of every turn.</li>
+<li><a href="{{ '/Economist' | relative_url }}" title="Economist">Economist</a> - While Calm is active, once per turn, this puppets Hold Item 1 is recycled at the end of the turn at a 100% rate, if the weather is <b>not</b> Calm, the frequency of activation is dropped to only 50% chance.</li>
+<li><a href="{{ '/Recalibration' | relative_url }}" title="Recalibration">Recalibration</a> - While Calm is active, this puppet's SpAtk and SpDef are increased by 50%</li>
+<li><a href="{{ '/Zen' | relative_url }}" title="Zen">Zen</a> - While Calm is active, this puppet is immune to status effects (Poisoned, Burned, etc.), and recover 1/16th max HP at end of every turn.</li>
+<li><a href="{{ '/Boundary_Blurrer' | relative_url }}" title="Boundary Blurrer">Boundary Blurrer</a> - While any weather is active, this puppets FoAtk, FoDef, SpAtk, and SpDef are doubled (x2) for as long as they are active. (<a href="{{ '/Power_Maribel' | relative_url }}" title="Power Maribel">Power Maribel</a> only)<p class="mw-empty-elt"></p></li></ul>
 </div>
 
 <div id="Aurora" class="tabcontent">
+<h2><span>Effect</span></h2>
+<p><b><a href="{{ '/Weather_Aurora' | relative_url }}" title="Weather Aurora">Aurora</a></b> increases the damage of Light-type skills by +50%, and halves (-50%) the damage of Dark-type skills.
+</p>
+<h2><span>Skills</span></h2>
+<h3><span><b>Change Weather to Aurora</b></span></h3>
+<ul><li><a href="{{ '/Weather_Aurora' | relative_url }}" title="Weather Aurora">Weather Aurora</a> - Changes current weather to Aurora, if not already active, for 5 turns (increases to 8 turns if holding an Almighty or Halo Godstone), if already active, the skill fails without reseting turn limit.</li>
+<li><a href="{{ '/Realm_Corona' | relative_url }}" title="Realm Corona">Realm Corona</a> - Changes the current weather to Aurora, and terrain to Byakko for 5 turns, even if Aurora or Byakko are already active. Unaffected by Almighty of Halo Godstone, but can be reused while still active to reset the turn limit to 5.</li></ul>
+<h3><span><b>Have Different Effects when Weather is Aurora</b></span></h3>
+<ul><li><a href="{{ '/Sunbeam_Dance' | relative_url }}" title="Sunbeam Dance">Sunbeam Dance</a> - While any Weather effect is currently active, except Clear, deals 2x damage, then sets weather to Clear.</li>
+<li><a href="{{ '/Passing_Breeze' | relative_url }}" title="Passing Breeze">Passing Breeze</a> - While any Weather effect is currently active, except Clear, deals 2x damage, then sets weather to Clear.</li>
+<li><a href="{{ '/Heavenly_Blessing' | relative_url }}" title="Heavenly Blessing">Heavenly Blessing</a> - While the weather is currently Aurora, deals 2x damage and skills type becomes Light (also boosted by Aurora's effect).</li>
+<li><a href="{{ '/Heavenly_Influence' | relative_url }}" title="Heavenly Influence">Heavenly Influence</a> - While the weather is currently Aurora, deals 2x damage and skills type becomes Light (also boosted by Aurora's effect).</li></ul>
+<h2><span>Abilities</span></h2>
+<ul><li><a href="{{ '/Sanguine' | relative_url }}" title="Sanguine">Sanguine</a> - Sets Aurora upon switching in, if not already active, for 5 turns, or 8 if holding a Almighty of Halo Godstone.</li>
+<li><a href="{{ '/Stargazer' | relative_url }}" title="Stargazer">Stargazer</a> - When using <a href="{{ '/Weather_Aurora' | relative_url }}" title="Weather Aurora">Weather Aurora</a>, Aurora will be permanently applied to the field until end of battle, or forcibly changed/removed by a skill or ability. (<a href="{{ '/Speed_Renko' | relative_url }}" title="Speed Renko">Speed Renko</a> only)</li></ul>
+<h3><span><b>Gain Effects when Aurora is Active</b></span></h3>
+<ul><li><a href="{{ '/Aurora_Grace' | relative_url }}" title="Aurora Grace">Aurora Grace</a> - While Aurora is active, this puppets SpDef is increased by 50%, and recover 1/16th max HP at end of every turn.</li>
+<li><a href="{{ '/Flash' | relative_url }}" title="Flash">Flash</a> - While Aurora is active, this puppets Speed is increased by 100%.</li>
+<li><a href="{{ '/Light_Curtain' | relative_url }}" title="Light Curtain">Light Curtain</a> - While Aurora is active, this puppet is immune to Confusion, and recovers from status ailments at the end of the turn.</li>
+<li><a href="{{ '/Boundary_Blurrer' | relative_url }}" title="Boundary Blurrer">Boundary Blurrer</a> - While any weather is active, this puppets FoAtk, FoDef, SpAtk, and SpDef are doubled (x2) for as long as they are active. (<a href="{{ '/Power_Maribel' | relative_url }}" title="Power Maribel">Power Maribel</a> only)<p class="mw-empty-elt"></p></li></ul></article>
 </div>
 
 <div id="Heavy_Fog" class="tabcontent">
