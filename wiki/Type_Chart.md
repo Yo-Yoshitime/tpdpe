@@ -680,7 +680,7 @@
 <th colspan="2" style="background-color: #DDDDDD; color: #000000; text-align: center;">Key
 </th></tr>
 <tr>
-<td style="width: 150px; background-color: #FFFFFF; color: #FB0127;"><b>Super Effective</b><br>(2x)
+<td style="text-align: center; width: 150px; background-color: #FFFFFF; color: #FB0127;"><b>Super Effective</b><br>(2x)
 </td>
 <td style="text-align: center; width: 26px; background-color: #FFFFFF; color: #FB0127;"><b>O</b>
 </td></tr>
