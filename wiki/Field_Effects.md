@@ -159,7 +159,7 @@
 <div id="Sunshower" class="tabcontent">
 <h2><span>Effect</span></h2>
 <p><b><a href="{{ '/Weather_Sunshower' | relative_url }}" title="Weather Sunshower">Sunshower</a></b> switches everyones base Focus Defense and Spread Defense stats (essentially Wonder Room from Pokemon).</p>
-<ul><li>Only switches the base stats, and has no effect on modifiers, for example, if you have 200 FoDef, and 100 SpDef, with +2 in FoDef, it would swap the FoDef and SpDef, so that it is now 100 FoDef, and 200 SpDef, with the +2 staying in FoDef, which means you now have 200 in both because of the modifiers.</li>
+<ul><li>Only switches the base stats, and has no effect on modifiers, for example, if you have 200 FoDef, and 100 SpDef, with +2 in FoDef, it would swap the FoDef and SpDef, so that it is now 100 FoDef, and 200 SpDef, with the +2 staying in FoDef, which means you now have 200 in both because of the modifiers.</li></ul>
 
 <h2><span>Skills</span></h2>
 <h3><span>Change Weather to Sunshower</span></h3>
@@ -332,7 +332,7 @@ There are no abilities that benefit from "Clear" terrain.
 </p>
 <ul><li>Simulates effects of <a href="{{ '/Wasteful' | relative_url }}" title="Wasteful">Wasteful</a>, making user unable to use their hold items.</li>
 <li>Disables effects of abilities that alter damage of skills, similar to <a href="{{ '/Ascertainment' | relative_url }}" title="Ascertainment">Ascertainment</a>.</li>
-<li>Also ignores abilities that would otherwise interfere with your skills, such as <a href="{{ '/Frail_Health' | relative_url }}" title="Frail Health">Frail Health</a> and <a href="{{ '/Clock_of_Darkness' | relative_url }}" title="Cloak of Darkness">Cloak of Darkness</a></li>
+<li>Also ignores abilities that would otherwise interfere with your skills, such as <a href="{{ '/Frail_Health' | relative_url }}" title="Frail Health">Frail Health</a> and <a href="{{ '/Clock_of_Darkness' | relative_url }}" title="Cloak of Darkness">Cloak of Darkness</a></li></ul>
 
 <h2><span>Skills</span></h2>
 <h3><span>Change Terrain to Kohryu</span></h3>
