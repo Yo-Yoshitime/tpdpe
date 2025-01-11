@@ -16,17 +16,17 @@
  <div id="center">
   <button class="scroll-left" onclick="ScrollLeft()"><i class="arrow arrow-left"></i></button>
   
-  <button class="tablinks" onclick="statusList(event, 'Poison')" id="defaultOpen"><b>Poison</b></button>
-  <button class="tablinks" onclick="statusList(event, 'Heavy_Poison')"><b>Heavy Poison</b></button>
-  <button class="tablinks" onclick="statusList(event, 'Burn')"><b>Burn</b></button>
-  <button class="tablinks" onclick="statusList(event, 'Heavy_Burn')"><b>Heavy Burn</b></button>
-  <button class="tablinks" onclick="statusList(event, 'Stopped')"><b>Stopped</b></button>
-  <button class="tablinks" onclick="statusList(event, 'Darkness')"><b>Darkness</b></button>
-  <button class="tablinks" onclick="statusList(event, 'Fear')"><b>Fear</b></button>
-  <button class="tablinks" onclick="statusList(event, 'Paralyze')"><b>Paralyze</b></button>
-  <button class="tablinks" onclick="statusList(event, 'Shocked')"><b>Shocked</b></button>
-  <button class="tablinks" onclick="statusList(event, 'Weakness')"><b>Weakness</b></button>
-  <button class="tablinks" onclick="statusList(event, 'Heavy_Weakness')"><b>Heavy Weakness</b></button>
+  <button class="tablinks" onclick="objectList(event, 'Poison')" id="defaultOpen"><b>Poison</b></button>
+  <button class="tablinks" onclick="objectList(event, 'Heavy_Poison')"><b>Heavy Poison</b></button>
+  <button class="tablinks" onclick="objectList(event, 'Burn')"><b>Burn</b></button>
+  <button class="tablinks" onclick="objectList(event, 'Heavy_Burn')"><b>Heavy Burn</b></button>
+  <button class="tablinks" onclick="objectList(event, 'Stopped')"><b>Stopped</b></button>
+  <button class="tablinks" onclick="objectList(event, 'Darkness')"><b>Darkness</b></button>
+  <button class="tablinks" onclick="objectList(event, 'Fear')"><b>Fear</b></button>
+  <button class="tablinks" onclick="objectList(event, 'Paralyze')"><b>Paralyze</b></button>
+  <button class="tablinks" onclick="objectList(event, 'Shocked')"><b>Shocked</b></button>
+  <button class="tablinks" onclick="objectList(event, 'Weakness')"><b>Weakness</b></button>
+  <button class="tablinks" onclick="objectList(event, 'Heavy_Weakness')"><b>Heavy Weakness</b></button>
 
   <button class="scroll-right" onclick="ScrollRight()"><i class="arrow arrow-right"></i></button>
   </div>
@@ -96,13 +96,13 @@
  <div id="center2">
   <button class="scroll-left" onclick="ScrollLeft2()"><i class="arrow arrow-left"></i></button>
   
-  <button class="tablinks2" onclick="statusNoList(event, 'Seeded')" id="defaultOpen2"><b>Seeded</b></button>
-  <button class="tablinks2" onclick="statusNoList(event, 'Claimed')"><b>Claimed</b></button>
-  <button class="tablinks2" onclick="statusNoList(event, 'Shinigami')"><b>Shinigami</b></button>
-  <button class="tablinks2" onclick="statusNoList(event, 'Rooted')"><b>Rooted</b></button>
-  <button class="tablinks2" onclick="statusNoList(event, 'Camouflage')"><b>Camouflage</b></button>
-  <button class="tablinks2" onclick="statusNoList(event, 'Substitute')"><b>Substitute</b></button>
-  <button class="tablinks2" onclick="statusNoList(event, 'Calamity')"><b>Calamity</b></button>
+  <button class="tablinks2" onclick="objectList2(event, 'Seeded')" id="defaultOpen2"><b>Seeded</b></button>
+  <button class="tablinks2" onclick="objectList2(event, 'Claimed')"><b>Claimed</b></button>
+  <button class="tablinks2" onclick="objectList2(event, 'Shinigami')"><b>Shinigami</b></button>
+  <button class="tablinks2" onclick="objectList2(event, 'Rooted')"><b>Rooted</b></button>
+  <button class="tablinks2" onclick="objectList2(event, 'Camouflage')"><b>Camouflage</b></button>
+  <button class="tablinks2" onclick="objectList2(event, 'Substitute')"><b>Substitute</b></button>
+  <button class="tablinks2" onclick="objectList2(event, 'Calamity')"><b>Calamity</b></button>
 
   <button class="scroll-right" onclick="ScrollRight2()"><i class="arrow arrow-right"></i></button>
  </div>
@@ -147,28 +147,28 @@
  <div id="center3">
   <button class="scroll-left" onclick="ScrollLeft3()"><i class="arrow arrow-left"></i></button>
  
-  <button class="tablinks3" onclick="statusTempList(event, 'Confusion')" id="defaultOpen3"><b>Confusion</b></button>
-  <button class="tablinks3" onclick="statusTempList(event, 'Bound')"><b>Bound</b></button>
-  <button class="tablinks3" onclick="statusTempList(event, 'Restrained')"><b>Restrained</b></button>
-  <button class="tablinks3" onclick="statusTempList(event, 'Flinch')"><b>Flinch</b></button>
-  <button class="tablinks3" onclick="statusTempList(event, 'Stance_Broken')"><b>Stance Broken</b></button>
-  <button class="tablinks3" onclick="statusTempList(event, 'Upbeat')"><b>Upbeat</b></button>
-  <button class="tablinks3" onclick="statusTempList(event, 'Skill-Seal')"><b>Skill-Seal</b></button>
-  <button class="tablinks3" onclick="statusTempList(event, 'Word_Break')"><b>Word Break</b></button>
-  <button class="tablinks3" onclick="statusTempList(event, 'Electrified')"><b>Electrified</b></button>
-  <button class="tablinks3" onclick="statusTempList(event, 'Trapped')"><b>Trapped</b></button>
-  <button class="tablinks3" onclick="statusTempList(event, 'Mirage')"><b>Mirage</b></button>
-  <button class="tablinks3" onclick="statusTempList(event, 'Soaked')"><b>Soaked</b></button>
-  <button class="tablinks3" onclick="statusTempList(event, 'Clean_Slate')"><b>Clean Slate</b></button>
-  <button class="tablinks3" onclick="statusTempList(event, 'Ghostly')"><b>Ghostly</b></button>
-  <button class="tablinks3" onclick="statusTempList(event, 'Charged')"><b>Charged</b></button>
-  <button class="tablinks3" onclick="statusTempList(event, 'Bracing')"><b>Bracing</b></button>
-  <button class="tablinks3" onclick="statusTempList(event, 'Charging')"><b>Charging</b></button>
-  <button class="tablinks3" onclick="statusTempList(event, 'Invulnerable')"><b>Invulnerable</b></button>
-  <button class="tablinks3" onclick="statusTempList(event, 'Semi-Invulnerable')"><b>Semi-Invulnerable</b></button>
-  <button class="tablinks3" onclick="statusTempList(event, 'Recharging')"><b>Recharging</b></button>
-  <button class="tablinks3" onclick="statusTempList(event, 'Water_Veil')"><b>Water Veil</b></button>
-  <button class="tablinks3" onclick="statusTempList(event, 'Lucky_Rainbow')"><b>Lucky Rainbow</b></button>
+  <button class="tablinks3" onclick="objectList3(event, 'Confusion')" id="defaultOpen3"><b>Confusion</b></button>
+  <button class="tablinks3" onclick="objectList3(event, 'Bound')"><b>Bound</b></button>
+  <button class="tablinks3" onclick="objectList3(event, 'Restrained')"><b>Restrained</b></button>
+  <button class="tablinks3" onclick="objectList3(event, 'Flinch')"><b>Flinch</b></button>
+  <button class="tablinks3" onclick="objectList3(event, 'Stance_Broken')"><b>Stance Broken</b></button>
+  <button class="tablinks3" onclick="objectList3(event, 'Upbeat')"><b>Upbeat</b></button>
+  <button class="tablinks3" onclick="objectList3(event, 'Skill-Seal')"><b>Skill-Seal</b></button>
+  <button class="tablinks3" onclick="objectList3(event, 'Word_Break')"><b>Word Break</b></button>
+  <button class="tablinks3" onclick="objectList3(event, 'Electrified')"><b>Electrified</b></button>
+  <button class="tablinks3" onclick="objectList3(event, 'Trapped')"><b>Trapped</b></button>
+  <button class="tablinks3" onclick="objectList3(event, 'Mirage')"><b>Mirage</b></button>
+  <button class="tablinks3" onclick="objectList3(event, 'Soaked')"><b>Soaked</b></button>
+  <button class="tablinks3" onclick="objectList3(event, 'Clean_Slate')"><b>Clean Slate</b></button>
+  <button class="tablinks3" onclick="objectList3(event, 'Ghostly')"><b>Ghostly</b></button>
+  <button class="tablinks3" onclick="objectList3(event, 'Charged')"><b>Charged</b></button>
+  <button class="tablinks3" onclick="objectList3(event, 'Bracing')"><b>Bracing</b></button>
+  <button class="tablinks3" onclick="objectList3(event, 'Charging')"><b>Charging</b></button>
+  <button class="tablinks3" onclick="objectList3(event, 'Invulnerable')"><b>Invulnerable</b></button>
+  <button class="tablinks3" onclick="objectList3(event, 'Semi-Invulnerable')"><b>Semi-Invulnerable</b></button>
+  <button class="tablinks3" onclick="objectList3(event, 'Recharging')"><b>Recharging</b></button>
+  <button class="tablinks3" onclick="objectList3(event, 'Water_Veil')"><b>Water Veil</b></button>
+  <button class="tablinks3" onclick="objectList3(event, 'Lucky_Rainbow')"><b>Lucky Rainbow</b></button>
 
   <button class="scroll-right" onclick="ScrollRight3()"><i class="arrow arrow-right"></i></button>
  </div>
