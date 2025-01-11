@@ -16,7 +16,7 @@
  <div id="center">
   <button class="scroll-left" onclick="ScrollLeft()"><i class="arrow arrow-left"></i></button>
   
-  <button class="tablinks" onclick="statusList(event, 'Poison')" id="defaultOpen">Poison</button>
+  <button class="tablinks" onclick="statusList(event, 'Poison')" id="defaultOpen"><b>Poison</b></button>
   <button class="tablinks" onclick="statusList(event, 'Heavy_Poison')">Heavy Poison</button>
   <button class="tablinks" onclick="statusList(event, 'Burn')">Burn</button>
   <button class="tablinks" onclick="statusList(event, 'Heavy_Burn')">Heavy Burn</button>
