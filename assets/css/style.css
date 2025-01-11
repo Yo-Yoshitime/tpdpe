@@ -16,6 +16,12 @@
 	width: auto;
 }
 
+.table_encore tbody {
+	border-style: solid;
+	border-width: 1px;
+	border-color: #7D8287;
+}
+
 #type_chart td {
 	border: 1px solid #7D8287;
 	padding: 4px 8px 4px 8px;
