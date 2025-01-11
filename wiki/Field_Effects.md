@@ -19,7 +19,7 @@
   </div>
 </div>
 
-<div id="Clear_(No_Weather" class="tabcontent">
+<div id="Clear_(No_Weather)" class="tabcontent">
 <h2><span>Effect</span></h2>
 <p>Default Weather, no additional effects.</p>
 <h2><span>Moves</span></h2>
