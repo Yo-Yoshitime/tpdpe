@@ -85,7 +85,8 @@
 <li><a href="{{ '/Passing_Breeze' | relative_url }}" title="Passing Breeze">Passing Breeze</a> - While any Weather effect is currently active, except Clear, deals 2x damage, then sets weather to Clear.</li>
 <li><a href="{{ '/Heavenly_Blessing' | relative_url }}" title="Heavenly Blessing">Heavenly Blessing</a> - While the weather is currently Aurora, deals 2x damage and skills type becomes Light (also boosted by Aurora's effect).</li>
 <li><a href="{{ '/Heavenly_Influence' | relative_url }}" title="Heavenly Influence">Heavenly Influence</a> - While the weather is currently Aurora, deals 2x damage and skills type becomes Light (also boosted by Aurora's effect).</li>
-<li><a href="{{ '/Rainbow_Flowers' | relative_url }}" title="Rainbow Flowers">Rainbow Flowers</a> - Works instantly during Aurora.</li></ul>
+<li><a href="{{ '/Rainbow_Flowers' | relative_url }}" title="Rainbow Flowers">Rainbow Flowers</a> - Works instantly during Aurora.</li>
+<li><a href="{{ '/Dark_Globe' | relative_url }}" title="Dark Globe">Dark Globe</a> - Ignores the damage penalty of Aurora.</li></ul>
 
 <h2><span>Abilities</span></h2>
 <ul><li><a href="{{ '/Sanguine' | relative_url }}" title="Sanguine">Sanguine</a> - Sets Aurora upon switching in, if not already active, for 5 turns, or 8 if holding a Almighty of Halo Godstone.</li>
@@ -113,7 +114,8 @@
 <li><a href="{{ '/Passing_Breeze' | relative_url }}" title="Passing Breeze">Passing Breeze</a> - While any Weather effect is currently active, except Clear, deals 2x damage, then sets weather to Clear.</li>
 <li><a href="{{ '/Heavenly_Blessing' | relative_url }}" title="Heavenly Blessing">Heavenly Blessing</a> - While the weather is currently Heavy Fog, deals 2x damage and skills type becomes Dark (also boosted by Heavy Fog's effect).</li>
 <li><a href="{{ '/Heavenly_Influence' | relative_url }}" title="Heavenly Influence">Heavenly Influence</a> - While the weather is currently Heavy Fog, deals 2x damage and skills type becomes Dark (also boosted by Heavy Fog's effect).</li>
-<li><a href="{{ '/Dense_Fog_Bloom' | relative_url }}" title="Dense Fog Bloom">Dense Fog Bloom</a> - Works instantly during Heavy Fog.</li></ul>
+<li><a href="{{ '/Dense_Fog_Bloom' | relative_url }}" title="Dense Fog Bloom">Dense Fog Bloom</a> - Works instantly during Heavy Fog.</li>
+<li><a href="{{ '/Divine_Arrow' | relative_url }}" title="Divine Arrow">Divine Arrow</a> - Ignores the damage penalty of Heavy Fog</li></ul>
 
 <h2><span>Abilities</span></h2>
 <ul><li><a href="{{ '/Melancholic' | relative_url }}" title="Melancholic">Melancholic</a> - Sets Heavy Fog upon switching in, if not already active, for 5 turns, or 8 if holding a Almighty of Twilight Godstone.</li>
