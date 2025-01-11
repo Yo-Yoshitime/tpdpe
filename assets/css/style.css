@@ -17,11 +17,10 @@
 }
 
 .table_encore td {
-	border: 10px solid #7D8287 !important; 
+	border: 1px solid #7D8287 !important; 
 }
 
 #type_chart td {
-	border: 1px solid #7D8287;
 	padding: 4px 8px 4px 8px;
 }
 
