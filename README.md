@@ -1,4 +1,4 @@
-# <span>Main Page</span>
+# <span>Home</span>
 
 Because of my lazy ass, I made a wiki with all the Encore changes already implemented. I couldn't post it on Miraheze because it was considered a dupe and I'll never make a wiki on Fandom lmao. Link of the [Original wiki](https://tpdp.miraheze.org/wiki/Main_Page).
 
