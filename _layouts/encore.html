@@ -24,35 +24,39 @@
     
 <body>
     <div class="wrapper">
-                {% include git-wiki/sections/header/header.html %}
-                <div class="git-wiki-page">
-                    {% include git-wiki/sections/tools/tools.html %}
+        {% include git-wiki/sections/header/header.html %}
+        <div class="git-wiki-page">
+            {% include git-wiki/sections/tools/tools.html %}
 
-                    {% if site.inc_before_content %}
-                    {% include {{ site.inc_before_content }} %}
-                    {% endif %}
+            {% if site.inc_before_content %}
+            {% include {{ site.inc_before_content }} %}
+            {% endif %}
 
-                    <div id="git-wiki-content">
-                        <div id="mediawiki">
-                            {{ content }}
-                        </div>
-                    </div>
+            <div id="git-wiki-content">
+                <div id="mediawiki">
+                    {{ content }}
+                </div>
+            </div>
 
-                    {% if site.inc_after_content %}
-                    {% include {{ site.inc_after_content }} %}
-                    {% endif %}
+            {% if site.inc_after_content %}
+            {% include {{ site.inc_after_content }} %}
+            {% endif %}
         </div>
 
-        <div class="row">
-            <div class="col">
-                {% include git-wiki/sections/footer/footer.html %}
-            </div>
+    <div class="row">
+        <div class="col">
+            <footer>
+                <div class="git-wiki-copyrights">
+                    <p><small>Hosted on GitHub Pages - Maintained by <a href="https://github.com/Yo-Yoshitime">Yo-Yoshitime</a> — Powered by <a href="https://github.com/Drassil/git-wiki-theme">Git-Wiki v2.8.6</a></small></p>
+                        
+                        <small><p class="view"><a href="https://github.com/Yo-Yoshitime/tpdpe">View the Project on  Github</a></p>
+                </div>
+            </footer>
         </div>
     </div>
 
-
+    {% include git-wiki/sections/tail/tail.html %}
 
     <script src="/tpdpe/assets/js/main.js"></script>
 </body>
-
 </html>
