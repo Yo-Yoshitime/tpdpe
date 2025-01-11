@@ -5,7 +5,7 @@
 <li>Be sure to reference both types when checking which type to use on them, for example, <a href="{{ '/Normal-Kogasa' | relative_url }}" title="Normal Kogasa">Normal Kogasa</a> is Water Wind, Wind is Weak to Steel, which is 2x, however, Water resists Steel, meaning it will actually only do 1x, because the Water type neutralizes the weakness to Steel caused by her secondary Wind typing.</li>
 </ul>
 
-<table class="type_chart">
+<table id="type_chart">
 <tbody><tr>
 <td style="text-align: center;">A/D
 </td>
