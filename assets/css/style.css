@@ -16,7 +16,7 @@
 	width: auto;
 }
 
-.table_encore tbody {
+.table_encore td {
 	border-style: solid;
 	border-width: 1px;
 	border-color: #7D8287;
