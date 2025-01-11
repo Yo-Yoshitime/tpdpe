@@ -1,4 +1,4 @@
-<h1><span>Puppet Status</span></h1>
+# <span>Puppet Status</span>
  
 <p>There are several Puppet ailments in Touhou Puppet Dance Performance, most of which are flat out derived from the Pokemon games. Some, however, have been tweaked a bit, and some others are entirely new.</p>
 
