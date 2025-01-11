@@ -1,4 +1,4 @@
-<h1>Main Page</h1> 
+<h1><span>Main Page</span></h1> 
 
 Because of my lazy ass, I made a wiki with all the Encore changes already implemented. I couldn't post it on Miraheze because it was considered a dupe and I'll never make a wiki on Fandom lmao. Link of the [Original wiki](https://tpdp.miraheze.org/wiki/Main_Page).
 
@@ -12,3 +12,4 @@ Because of my lazy ass, I made a wiki with all the Encore changes already implem
   <li><a href="{{ '/Field_Effects' | relative_url }}" title="Field Effects">Field Effects</a></li>
 </ul>
 
+<p>Encore's Mod is being made by Eveiira Everel Everyone Everentinton Eve, also known as [Everii](https://x.com/Eveiira).</p>
