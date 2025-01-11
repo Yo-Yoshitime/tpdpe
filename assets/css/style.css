@@ -12,7 +12,7 @@
  font-weight: normal;
  }
 
-.type_chart {
+#type_chart {
   border-style: solid;
   border-width: 1px;
   float:left;
@@ -20,11 +20,11 @@
   width: auto;
 }
 
-.type_chart td{
+#type_chart td{
   padding: 1px 1px 1px 1px;
 }
 
-.type_chart table, td, th {
+#type_chart table, td, th {
   border: 1px solid black;
   border-collapse: collapse;
 }
