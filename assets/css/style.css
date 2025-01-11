@@ -16,7 +16,8 @@
 	width: auto;
 }
 
-.table_encore td {
+.table_encore td,
+.table_encore th {
 	border: 1px solid #7D8287 !important; 
 }
 
