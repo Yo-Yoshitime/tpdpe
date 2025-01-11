@@ -236,10 +236,10 @@ There are no abilities that benefit from "Clear" terrain.
 <li><a href="{{ '/Earthly_Influence' | relative_url }}" title="Earthly Influence">Earthly Influence</a> - While the terrain is currently Seiryu, deals 2x damage and skills type becomes Nature</li></ul>
 
 <h2><span>Abilities</span></h2>
-<li><a href="{{ '/Timegazer' | relative_url }}" title="Timegazer">Timegazer</a> - When using <a href="{{ '/Terrain_Seiryu' | relative_url }}" title="Terrain Seiryu">Terrain Seiryu</a>, Seiryu will be set for 8 turns instead of 5. (<a href="{{ '/Assist_Renko' | relative_url }}" title="Assist Renko">Assist Renko</a> only)</li></ul>
+<ul><li><a href="{{ '/Timegazer' | relative_url }}" title="Timegazer">Timegazer</a> - When using <a href="{{ '/Terrain_Seiryu' | relative_url }}" title="Terrain Seiryu">Terrain Seiryu</a>, Seiryu will be set for 8 turns instead of 5. (<a href="{{ '/Assist_Renko' | relative_url }}" title="Assist Renko">Assist Renko</a> only)</li></ul>
 
 <h3><span>Gain Effects when Seiryu is Active</span></h3>
-<li><a href="{{ '/Eastern_Expanse' | relative_url }}" title="Eastern Expanse">Eastern Expanse</a> - While the terrain is currently Seiryu, same-type skills are 33% stronger.Additionally, immunities are ignored by puppets with Eastern Expanse during Seiryu, where they are not normally.</li>
+<ul><li><a href="{{ '/Eastern_Expanse' | relative_url }}" title="Eastern Expanse">Eastern Expanse</a> - While the terrain is currently Seiryu, same-type skills are 33% stronger.Additionally, immunities are ignored by puppets with Eastern Expanse during Seiryu, where they are not normally.</li>
 <li><a href="{{ '/Seiteis_Wood' | relative_url }}" title="Seitei's Wood">Seitei's Wood</a> - While the terrain is currently Seiryu, Nature skills are 50% more powerful and Steel-skill damage is halved.</li>
 <li><a href="{{ '/Boundary_Savior' | relative_url }}" title="Boundary Savior">Boundary Savior</a> - While any terrain is active, this puppets FoDef, SpDef are doubled (x2). Also will recover from ailments and the opposing puppet will take 12.5% (1/8th) of their max HP at the end of each turn. (<a href="{{ '/Defense_Maribel' | relative_url }}" title="Defense Maribel">Defense Maribel</a> only)</li></ul>
 </div>
@@ -263,10 +263,10 @@ There are no abilities that benefit from "Clear" terrain.
 <li><a href="{{ '/Earthly_Influence' | relative_url }}" title="Earthly Influence">Earthly Influence</a> - While the terrain is currently Suzaku, deals 2x damage and skills type becomes Fire</li></ul>
 
 <h2><span>Abilities</span></h2>
-<li><a href="{{ '/Timegazer' | relative_url }}" title="Timegazer">Timegazer</a> - When using <a href="{{ '/Terrain_Suzaku' | relative_url }}" title="Terrain Suzaku">Terrain Suzaku</a>, Suzaku will be set for 8 turns instead of 5. (<a href="{{ '/Assist_Renko' | relative_url }}" title="Assist Renko">Assist Renko</a> only)</li></ul>
+<ul><li><a href="{{ '/Timegazer' | relative_url }}" title="Timegazer">Timegazer</a> - When using <a href="{{ '/Terrain_Suzaku' | relative_url }}" title="Terrain Suzaku">Terrain Suzaku</a>, Suzaku will be set for 8 turns instead of 5. (<a href="{{ '/Assist_Renko' | relative_url }}" title="Assist Renko">Assist Renko</a> only)</li></ul>
 
 <h3><span>Gain Effects when Suzaku is Active</span></h3>
-<li><a href="{{ '/Southern_Expanse' | relative_url }}" title="Southern Expanse">Southern Expanse</a> - While the terrain is currently Suzaku, this puppet recovers 1/16th max HP at end of every turn, and is immune to Suzaku's effect.</li>
+<ul><li><a href="{{ '/Southern_Expanse' | relative_url }}" title="Southern Expanse">Southern Expanse</a> - While the terrain is currently Suzaku, this puppet recovers 1/16th max HP at end of every turn, and is immune to Suzaku's effect.</li>
 <li><a href="{{ '/Suteis Fire' | relative_url }}" title="Sutei's Fire">Sutei's Fire</a> - While the terrain is currently Suzaku, Fire skills are 50% more powerful and Water-skill damage is halved.</li>
 <li><a href="{{ '/Boundary_Savior' | relative_url }}" title="Boundary Savior">Boundary Savior</a> - While any terrain is active, this puppets FoDef, SpDef are doubled (x2), will recover from ailments and the opposing puppet will take 12.5% (1/8th) of their max HP at the end of each turn. (<a href="{{ '/Defense_Maribel' | relative_url }}" title="Defense Maribel">Defense Maribel</a> only)</li></ul>
 </div>
@@ -291,10 +291,10 @@ There are no abilities that benefit from "Clear" terrain.
 <li><a href="{{ '/Earthly_Influence' | relative_url }}" title="Earthly Influence">Earthly Influence</a> - While the terrain is currently Byakko, deals 2x damage and skills type becomes Steel</li></ul>
 
 <h2><span>Abilities</span></h2>
-<li><a href="{{ '/Timegazer' | relative_url }}" title="Timegazer">Timegazer</a> - When using <a href="{{ '/Terrain_Byakko' | relative_url }}" title="Terrain Byakko">Terrain Byakko</a>, Byakko will be set for 8 turns instead of 5. (<a href="{{ '/Assist_Renko' | relative_url }}" title="Assist Renko">Assist Renko</a> only)</li></ul>
+<ul><li><a href="{{ '/Timegazer' | relative_url }}" title="Timegazer">Timegazer</a> - When using <a href="{{ '/Terrain_Byakko' | relative_url }}" title="Terrain Byakko">Terrain Byakko</a>, Byakko will be set for 8 turns instead of 5. (<a href="{{ '/Assist_Renko' | relative_url }}" title="Assist Renko">Assist Renko</a> only)</li></ul>
 
 <h3><span>Gain Effects when Byakko is Active</span></h3>
-<li><a href="{{ '/Western_Expanse' | relative_url }}" title="Western Expanse">Western Expanse</a> - While the terrain is currently Byakko, this puppet 100 acc skills power increases by 20%, no-miss skills power increases by 50%.</li>
+<ul><li><a href="{{ '/Western_Expanse' | relative_url }}" title="Western Expanse">Western Expanse</a> - While the terrain is currently Byakko, this puppet 100 acc skills power increases by 20%, no-miss skills power increases by 50%.</li>
 <li><a href="{{ '/Byakuteis_Metal' | relative_url }}" title="Byakutei's Metal">Byakutei's Metal</a> - While the terrain is currently Byakko, Steel  skills are 50% more powerful and Fire-skill damage is halved.</li>
 <li><a href="{{ '/Boundary_Savior' | relative_url }}" title="Boundary Savior">Boundary Savior</a> - While any terrain is active, this puppets FoDef, SpDef are doubled (x2), will recover from ailments and the opposing puppet will take 12.5% (1/8th) of their max HP at the end of each turn. (<a href="{{ '/Defense_Maribel' | relative_url }}" title="Defense Maribel">Defense Maribel</a> only)</li></ul>
 </div>
@@ -317,10 +317,10 @@ There are no abilities that benefit from "Clear" terrain.
 <li><a href="{{ '/Earthly_Influence' | relative_url }}" title="Earthly Influence">Earthly Influence</a> - While the terrain is currently Genbu, deals 2x damage and skills type becomes Water</li></ul>
 
 <h2><span>Abilities</span></h2>
-<li><a href="{{ '/Timegazer' | relative_url }}" title="Timegazer">Timegazer</a> - When using <a href="{{ '/Terrain_Genbu' | relative_url }}" title="Terrain Genbu">Terrain Genbu</a>, Genbu will be set for 8 turns instead of 5. (<a href="{{ '/Assist_Renko' | relative_url }}" title="Assist Renko">Assist Renko</a> only)</li></ul>
+<ul><li><a href="{{ '/Timegazer' | relative_url }}" title="Timegazer">Timegazer</a> - When using <a href="{{ '/Terrain_Genbu' | relative_url }}" title="Terrain Genbu">Terrain Genbu</a>, Genbu will be set for 8 turns instead of 5. (<a href="{{ '/Assist_Renko' | relative_url }}" title="Assist Renko">Assist Renko</a> only)</li></ul>
 
 <h3><span>Gain Effects when Genbu is Active</span></h3>
-<li><a href="{{ '/Northern_Expanse' | relative_url }}" title="Northern Expanse">Northern Expanse</a> - While the terrain is currently Genbu, this puppet speed is halved.</li>
+<ul><li><a href="{{ '/Northern_Expanse' | relative_url }}" title="Northern Expanse">Northern Expanse</a> - While the terrain is currently Genbu, this puppet speed is halved.</li>
 <li><a href="{{ '/Genteis_Water' | relative_url }}" title="Gentei's Water">Gentei's Water</a> - While the terrain is currently Genbu, Water skills are 50% more powerful and Earth-skill damage is halved.</li>
 <li><a href="{{ '/Boundary_Savior' | relative_url }}" title="Boundary Savior">Boundary Savior</a> - While any terrain is active, this puppets FoDef, SpDef are doubled (x2), will recover from ailments and the opposing puppet will take 12.5% (1/8th) of their max HP at the end of each turn. (<a href="{{ '/Defense_Maribel' | relative_url }}" title="Defense Maribel">Defense Maribel</a> only)</li></ul>
 </div>
@@ -346,10 +346,10 @@ There are no abilities that benefit from "Clear" terrain.
 <li><a href="{{ '/Earthly_Influence' | relative_url }}" title="Earthly Influence">Earthly Influence</a> - While the terrain is currently Kohryu, deals 2x damage and skills type becomes Earth</li></ul>
 
 <h2><span>Abilities</span></h2>
-<li><a href="{{ '/Timegazer' | relative_url }}" title="Timegazer">Timegazer</a> - When using <a href="{{ '/Terrain_Kohryu' | relative_url }}" title="Terrain Kohryu">Terrain Kohryu</a>, Kohryu will be set for 8 turns instead of 5. (<a href="{{ '/Assist_Renko' | relative_url }}" title="Assist Renko">Assist Renko</a> only)</li></ul>
+<ul><li><a href="{{ '/Timegazer' | relative_url }}" title="Timegazer">Timegazer</a> - When using <a href="{{ '/Terrain_Kohryu' | relative_url }}" title="Terrain Kohryu">Terrain Kohryu</a>, Kohryu will be set for 8 turns instead of 5. (<a href="{{ '/Assist_Renko' | relative_url }}" title="Assist Renko">Assist Renko</a> only)</li></ul>
 
 <h3><span>Gain Effects when Seiryu is Kohryu</span></h3>
-<li><a href="{{ '/Central_Expanse' | relative_url }}" title="Central Expanse">Central Expanse</a> - While the terrain is currently Kohryu, this puppet skills ignore the foe's ability. The user may also use held items and has <a href="{{ '/Quick_Eye' | relative_url }}" title="Quick Eye">Quick Eye.</a></li>
+<ul><li><a href="{{ '/Central_Expanse' | relative_url }}" title="Central Expanse">Central Expanse</a> - While the terrain is currently Kohryu, this puppet skills ignore the foe's ability. The user may also use held items and has <a href="{{ '/Quick_Eye' | relative_url }}" title="Quick Eye">Quick Eye.</a></li>
 <li><a href="{{ '/Kouteis_Earth' | relative_url }}" title="Koutei's Earth">Koutei's Earth</a> - While the terrain is currently Kohryu, Earth skills are 50% more powerful and Nature-skill damage is halved.</li>
 <li><a href="{{ '/Boundary_Savior' | relative_url }}" title="Boundary Savior">Boundary Savior</a> - While any terrain is active, this puppets FoDef, SpDef are doubled (x2), will recover from ailments and the opposing puppet will take 12.5% (1/8th) of their max HP at the end of each turn. (<a href="{{ '/Defense_Maribel' | relative_url }}" title="Defense Maribel">Defense Maribel</a> only)</li></ul>
 </div>
