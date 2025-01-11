@@ -51,35 +51,35 @@
 </div>
 
 <h2><span>Types of Terrain Effects</span></h2>
-<div class="tab">
+<div class="tab2">
  <div id="center">
   <button class="scroll-left" onclick="ScrollLeft2()"><i class="arrow arrow-left"></i></button>
   
-  <button class="tablinks" onclick="objectList2(event, 'Clear_(No_Terrain)')" id="defaultOpen2"><b>Clear (No Terrain)</b></button>
-  <button class="tablinks" onclick="objectList2(event, 'Seiryu')"><b>Seiryu</b></button>
-  <button class="tablinks" onclick="objectList2(event, 'Suzaku')"><b>Suzaku</b></button>
-  <button class="tablinks" onclick="objectList2(event, 'Byakko')"><b>Byakko</b></button>
-  <button class="tablinks" onclick="objectList2(event, 'Genbu')"><b>Genbu</b></button>
-  <button class="tablinks" onclick="objectList2(event, 'Kohryu')"><b>Kohryu</b></button>
+  <button class="tablinks2" onclick="objectList2(event, 'Clear_(No_Terrain)')" id="defaultOpen2"><b>Clear (No Terrain)</b></button>
+  <button class="tablinks2" onclick="objectList2(event, 'Seiryu')"><b>Seiryu</b></button>
+  <button class="tablinks2" onclick="objectList2(event, 'Suzaku')"><b>Suzaku</b></button>
+  <button class="tablinks2" onclick="objectList2(event, 'Byakko')"><b>Byakko</b></button>
+  <button class="tablinks2" onclick="objectList2(event, 'Genbu')"><b>Genbu</b></button>
+  <button class="tablinks2" onclick="objectList2(event, 'Kohryu')"><b>Kohryu</b></button>
 
   <button class="scroll-right" onclick="ScrollRight2()"><i class="arrow arrow-right"></i></button>
   </div>
 </div>
 
-<div id="Clear_(No_Terrain)" class="tabcontent">
+<div id="Clear_(No_Terrain)" class="tabcontent2">
 </div>
 
-<div id="Seiryu" class="tabcontent">
+<div id="Seiryu" class="tabcontent2">
 </div>
 
-<div id="Suzaku" class="tabcontent">
+<div id="Suzaku" class="tabcontent2">
 </div>
 
-<div id="Byakko" class="tabcontent">
+<div id="Byakko" class="tabcontent2">
 </div>
 
-<div id="Genbu" class="tabcontent">
+<div id="Genbu" class="tabcontent2">
 </div>
 
-<div id="Kohryu" class="tabcontent">
+<div id="Kohryu" class="tabcontent2">
 </div>
