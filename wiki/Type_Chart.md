@@ -695,7 +695,7 @@
 <td style="text-align: center; background-color: #FFFFFF; color: #000000;"><b>X</b>
 </td></tr></tbody></table>
 
-<table class="table_encore">
+<table class="table_encore" style="float:left;">
 <tbody><tr>
 <td>Status skills are not effected by these interactions.
 <ul><li>For example, Warped-type puppets can still be hit by Squall, despite being immune to Wind type moves. This trait is ignored by Type Immunity Abilities, such as <a href="{{ '/Negative-Aura' | relative_url }}" title="Negative Aura">Negative Aura</a></li>
