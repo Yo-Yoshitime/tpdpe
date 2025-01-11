@@ -1,4 +1,4 @@
-<h1>Puppet Status</h1>
+<h1><span>Puppet Status</span></h1>
  
 <p>There are several Puppet ailments in Touhou Puppet Dance Performance, most of which are flat out derived from the Pokemon games. Some, however, have been tweaked a bit, and some others are entirely new.</p>
 
@@ -10,7 +10,7 @@
 </p>
 
 
-<h1><span>Status Effects</span></h1>
+<h2><span>Status Effects</span></h2>
 
 <div class="tab">
  <div id="center">
@@ -88,7 +88,7 @@
 <br>Uses two slots.</p>
 </div>
 
-<h1>Status Effects that take up no Status Slots</h1>
+<h2><span>Status Effects that take up no Status Slots</span></h2>
 <p><b>Note</b>: These statuses take up no slots, and can be received even if both Status slots are filled. The following status effects <b>can</b> be passed with the use of <a href="{{ '/Backup_Plan' | relative_url }}" title="Backup Plan">Backup Plan</a>, so be careful.
 </p>
 
@@ -139,7 +139,7 @@
 
 
 
-<h1>Temporary Conditions</h1>
+<h2><span>Temporary Conditions</span></h2>
 <p><b>Note</b>: These statuses take up no slots, and can be received even if both Status slots are filled. The following status effects <b>cannot</b> be passed with the use of <a href="{{ '/Backup_Plan' | relative_url }}" title="Backup Plan">Backup Plan</a>.
 </p>
 
