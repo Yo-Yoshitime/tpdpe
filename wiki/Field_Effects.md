@@ -327,7 +327,7 @@ There are no abilities that benefit from "Clear" terrain.
 
 
 <div id="Kohryu" class="tabcontent2">
-<h2><span>Effect</h2>
+<h2><span>Effect</span></h2>
 <p>When <b><a href="{{ '/Terrain_Kohryu' | relative_url }}" title="Terrain Kohryu">Kohryu</a></b> This disables the effects of items and abilities. It disables the effect of all hold items, but how it interacts with abilities is a bit different. For examples, check the <a href="{{ '/Terrain_Kohryu' | relative_url }}" title="Terrain Kohryu">Terrain Kohryu</a> page.
 </p>
 <ul><li>Simulates effects of <a href="{{ '/Wasteful' | relative_url }}" title="Wasteful">Wasteful</a>, making user unable to use their hold items.</li>
