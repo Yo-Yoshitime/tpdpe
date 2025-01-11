@@ -8,670 +8,670 @@
 
 <table id="type_chart" class="table_encore">
 <tbody><tr>
-<td style="text-align: center;">A/D
+<td>A/D
 </td>
-<td style="text-align: center; background: #FFBBE6; color: #000000;;"><span style="color:black;">Voi</span>
+<td style="background: #FFBBE6; color: #000000;;"><span style="color:black;">Voi</span>
 </td>
-<td style="text-align: center; background: #FF4949; color: #000000;;"><span style="color:black;">Fir</span>
+<td style="background: #FF4949; color: #000000;;"><span style="color:black;">Fir</span>
 </td>
-<td style="text-align: center; background: #6884FF; color: #000000;;"><span style="color:black;">Wtr</span>
+<td style="background: #6884FF; color: #000000;;"><span style="color:black;">Wtr</span>
 </td>
-<td style="text-align: center; background: #57DC4D; color: #000000;;"><span style="color:black;">Ntr</span>
+<td style="background: #57DC4D; color: #000000;;"><span style="color:black;">Ntr</span>
 </td>
-<td style="text-align: center; background: #C18458; color: #000000;;"><span style="color:black;">Ear</span>
+<td style="background: #C18458; color: #000000;;"><span style="color:black;">Ear</span>
 </td>
-<td style="text-align: center; background: #A2A2A2; color: #000000;;"><span style="color:black;">Stl</span>
+<td style="background: #A2A2A2; color: #000000;;"><span style="color:black;">Stl</span>
 </td>
-<td style="text-align: center; background: #C1FF71; color: #000000;;"><span style="color:black;">Wnd</span>
+<td style="background: #C1FF71; color: #000000;;"><span style="color:black;">Wnd</span>
 </td>
-<td style="text-align: center; background: #FF8D1E; color: #000000;;"><span style="color:black;">Ele</span>
+<td style="background: #FF8D1E; color: #000000;;"><span style="color:black;">Ele</span>
 </td>
-<td style="text-align: center; background: #FEE85A; color: #000000;;"><span style="color:black;">Lgt</span>
+<td style="background: #FEE85A; color: #000000;;"><span style="color:black;">Lgt</span>
 </td>
-<td style="text-align: center; background: #585858; color: #EEEEEE;;"><span style="color:white;">Drk</span>
+<td style="background: #585858; color: #EEEEEE;;"><span style="color:white;">Drk</span>
 </td>
-<td style="text-align: center; background: #675173; color: #EEEEEE;;"><span style="color:white;">Nth</span>
+<td style="background: #675173; color: #EEEEEE;;"><span style="color:white;">Nth</span>
 </td>
-<td style="text-align: center; background: #AE66FF; color: #EEEEEE;;"><span style="color:white;">Psn</span>
+<td style="background: #AE66FF; color: #EEEEEE;;"><span style="color:white;">Psn</span>
 </td>
-<td style="text-align: center; background: #FF6B22; color: #000000;;"><span style="color:black;">Fgt</span>
+<td style="background: #FF6B22; color: #000000;;"><span style="color:black;">Fgt</span>
 </td>
-<td style="text-align: center; background: #FF71E9; color: #000000;;"><span style="color:black;">Ilu</span>
+<td style="background: #FF71E9; color: #000000;;"><span style="color:black;">Ilu</span>
 </td>
-<td style="text-align: center; background: #FFB400; color: #000000;;"><span style="color:black;">Snd</span>
+<td style="background: #FFB400; color: #000000;;"><span style="color:black;">Snd</span>
 </td>
-<td style="text-align: center; background: #3A62C4; color: #EEEEEE;;"><span style="color:white;">Wrp</span>
+<td style="background: #3A62C4; color: #EEEEEE;;"><span style="color:white;">Wrp</span>
 </td>
-<td style="text-align: center; background: #F75B97; color: #000000;;"><span style="color:black;">Drm</span>
+<td style="background: #F75B97; color: #000000;;"><span style="color:black;">Drm</span>
 </td></tr>
 <tr>
-<td style="text-align: center; background: #FFBBE6; color: #000000;;"><span style="color:black;">Void</span>
+<td style="background: #FFBBE6; color: #000000;;"><span style="color:black;">Void</span>
 </td>
-<td style="text-align: center;">
+<td>
 </td>
-<td style="text-align: center;">
+<td>
 </td>
-<td style="text-align: center;">
+<td>
 </td>
-<td style="text-align: center;">
+<td>
 </td>
-<td style="text-align: center;">
+<td>
 </td>
-<td style="text-align: center;">
+<td>
 </td>
-<td style="text-align: center;">
+<td>
 </td>
-<td style="text-align: center;">
+<td>
 </td>
-<td style="text-align: center; background-color: #FFFFFF; color: #3C00DA;"><b>△</b>
+<td style="color: #3C00DA;"><b>△</b>
 </td>
-<td style="text-align: center; background-color: #FFFFFF; color: #3C00DA;"><b>△</b>
+<td style="color: #3C00DA;"><b>△</b>
 </td>
-<td style="text-align: center;">
+<td>
 </td>
-<td style="text-align: center;">
+<td>
 </td>
-<td style="text-align: center;">
+<td>
 </td>
-<td style="text-align: center; background-color: #FFFFFF; color: #000000;"><b>X</b>
+<td style="color: #000000;"><b>X</b>
 </td>
-<td style="text-align: center;">
+<td>
 </td>
-<td style="text-align: center;">
+<td>
 </td>
-<td style="text-align: center;">
+<td>
 </td></tr>
 <tr>
-<td style="text-align: center; background: #FF4949; color: #000000;;"><span style="color:black;">Fire</span>
+<td style="background: #FF4949; color: #000000;;"><span style="color:black;">Fire</span>
 </td>
-<td style="text-align: center;">
+<td>
 </td>
-<td style="text-align: center; background-color: #FFFFFF; color: #3C00DA;"><b>△</b>
+<td style="color: #3C00DA;"><b>△</b>
 </td>
-<td style="text-align: center; background-color: #FFFFFF; color: #3C00DA;"><b>△</b>
+<td style="color: #3C00DA;"><b>△</b>
 </td>
-<td style="text-align: center; background-color: #FFFFFF; color: #FB0127;"><b>O</b>
+<td style="color: #FB0127;"><b>O</b>
 </td>
-<td style="text-align: center; background-color: #FFFFFF; color: #3C00DA;"><b>△</b>
+<td style="color: #3C00DA;"><b>△</b>
 </td>
-<td style="text-align: center; background-color: #FFFFFF; color: #FB0127;"><b>O</b>
+<td style="color: #FB0127;"><b>O</b>
 </td>
-<td style="text-align: center;">
+<td>
 </td>
-<td style="text-align: center;">
+<td>
 </td>
-<td style="text-align: center;">
+<td>
 </td>
-<td style="text-align: center;">
+<td>
 </td>
-<td style="text-align: center;">
+<td>
 </td>
-<td style="text-align: center;">
+<td>
 </td>
-<td style="text-align: center;">
+<td>
 </td>
-<td style="text-align: center;">
+<td>
 </td>
-<td style="text-align: center;">
+<td>
 </td>
-<td style="text-align: center;">
+<td>
 </td>
-<td style="text-align: center;">
+<td>
 </td></tr>
 <tr>
-<td style="text-align: center; background: #6884FF; color: #000000;;"><span style="color:black;">Water</span>
+<td style="background: #6884FF; color: #000000;;"><span style="color:black;">Water</span>
 </td>
-<td style="text-align: center;">
+<td>
 </td>
-<td style="text-align: center; background-color: #FFFFFF; color: #FB0127;"><b>O</b>
+<td style="color: #FB0127;"><b>O</b>
 </td>
-<td style="text-align: center; background-color: #FFFFFF; color: #3C00DA;"><b>△</b>
+<td style="color: #3C00DA;"><b>△</b>
 </td>
-<td style="text-align: center; background-color: #FFFFFF; color: #3C00DA;"><b>△</b>
+<td style="color: #3C00DA;"><b>△</b>
 </td>
-<td style="text-align: center; background-color: #FFFFFF; color: #FB0127;"><b>O</b>
+<td style="color: #FB0127;"><b>O</b>
 </td>
-<td style="text-align: center;">
+<td>
 </td>
-<td style="text-align: center;">
+<td>
 </td>
-<td style="text-align: center;">
+<td>
 </td>
-<td style="text-align: center;">
+<td>
 </td>
-<td style="text-align: center;">
+<td>
 </td>
-<td style="text-align: center;">
+<td>
 </td>
-<td style="text-align: center;">
+<td>
 </td>
-<td style="text-align: center;">
+<td>
 </td>
-<td style="text-align: center;">
+<td>
 </td>
-<td style="text-align: center; background-color: #FFFFFF; color: #3C00DA;"><b>△</b>
+<td style="color: #3C00DA;"><b>△</b>
 </td>
-<td style="text-align: center;">
+<td>
 </td>
-<td style="text-align: center;">
+<td>
 </td></tr>
 <tr>
-<td style="text-align: center; background: #57DC4D; color: #000000;;"><span style="color:black;">Nature</span>
+<td style="background: #57DC4D; color: #000000;;"><span style="color:black;">Nature</span>
 </td>
-<td style="text-align: center;">
+<td>
 </td>
-<td style="text-align: center; background-color: #FFFFFF; color: #3C00DA;"><b>△</b>
+<td style="color: #3C00DA;"><b>△</b>
 </td>
-<td style="text-align: center; background-color: #FFFFFF; color: #FB0127;"><b>O</b>
+<td style="color: #FB0127;"><b>O</b>
 </td>
-<td style="text-align: center; background-color: #FFFFFF; color: #3C00DA;"><b>△</b>
+<td style="color: #3C00DA;"><b>△</b>
 </td>
-<td style="text-align: center; background-color: #FFFFFF; color: #FB0127;"><b>O</b>
+<td style="color: #FB0127;"><b>O</b>
 </td>
-<td style="text-align: center;">
+<td>
 </td>
-<td style="text-align: center; background-color: #FFFFFF; color: #3C00DA;"><b>△</b>
+<td style="color: #3C00DA;"><b>△</b>
 </td>
-<td style="text-align: center;">
+<td>
 </td>
-<td style="text-align: center;">
+<td>
 </td>
-<td style="text-align: center;">
+<td>
 </td>
-<td style="text-align: center;">
+<td>
 </td>
-<td style="text-align: center; background-color: #FFFFFF; color: #3C00DA;"><b>△</b>
+<td style="color: #3C00DA;"><b>△</b>
 </td>
-<td style="text-align: center;">
+<td>
 </td>
-<td style="text-align: center;">
+<td>
 </td>
-<td style="text-align: center;">
+<td>
 </td>
-<td style="text-align: center;">
+<td>
 </td>
-<td style="text-align: center;">
+<td>
 </td></tr>
 <tr>
-<td style="text-align: center; background: #C18458; color: #000000;;"><span style="color:black;">Earth</span>
+<td style="background: #C18458; color: #000000;;"><span style="color:black;">Earth</span>
 </td>
-<td style="text-align: center;">
+<td>
 </td>
-<td style="text-align: center; background-color: #FFFFFF; color: #FB0127;"><b>O</b>
+<td style="color: #FB0127;"><b>O</b>
 </td>
-<td style="text-align: center;">
+<td>
 </td>
-<td style="text-align: center; background-color: #FFFFFF; color: #3C00DA;"><b>△</b>
+<td style="color: #3C00DA;"><b>△</b>
 </td>
-<td style="text-align: center;">
+<td>
 </td>
-<td style="text-align: center; background-color: #FFFFFF; color: #FB0127;"><b>O</b>
+<td style="color: #FB0127;"><b>O</b>
 </td>
-<td style="text-align: center; background-color: #FFFFFF; color: #000000;"><b>X</b>
+<td style="color: #000000;"><b>X</b>
 </td>
-<td style="text-align: center; background-color: #FFFFFF; color: #FB0127;"><b>O</b>
+<td style="color: #FB0127;"><b>O</b>
 </td>
-<td style="text-align: center;">
+<td>
 </td>
-<td style="text-align: center;">
+<td>
 </td>
-<td style="text-align: center;">
+<td>
 </td>
-<td style="text-align: center; background-color: #FFFFFF; color: #FB0127;"><b>O</b>
+<td style="color: #FB0127;"><b>O</b>
 </td>
-<td style="text-align: center; background-color: #FFFFFF; color: #3C00DA;"><b>△</b>
+<td style="color: #3C00DA;"><b>△</b>
 </td>
-<td style="text-align: center;">
+<td>
 </td>
-<td style="text-align: center;">
+<td>
 </td>
-<td style="text-align: center;">
+<td>
 </td>
-<td style="text-align: center;">
+<td>
 </td></tr>
 <tr>
-<td style="text-align: center; background: #A2A2A2; color: #000000;;"><span style="color:black;">Steel</span>
+<td style="background: #A2A2A2; color: #000000;;"><span style="color:black;">Steel</span>
 </td>
-<td style="text-align: center;">
+<td>
 </td>
-<td style="text-align: center; background-color: #FFFFFF; color: #3C00DA;"><b>△</b>
+<td style="color: #3C00DA;"><b>△</b>
 </td>
-<td style="text-align: center; background-color: #FFFFFF; color: #3C00DA;"><b>△</b>
+<td style="color: #3C00DA;"><b>△</b>
 </td>
-<td style="text-align: center; background-color: #FFFFFF; color: #FB0127;"><b>O</b>
+<td style="color: #FB0127;"><b>O</b>
 </td>
-<td style="text-align: center;">
+<td>
 </td>
-<td style="text-align: center; background-color: #FFFFFF; color: #3C00DA;"><b>△</b>
+<td style="color: #3C00DA;"><b>△</b>
 </td>
-<td style="text-align: center; background-color: #FFFFFF; color: #FB0127;"><b>O</b>
+<td style="tcolor: #FB0127;"><b>O</b>
 </td>
-<td style="text-align: center;">
+<td>
 </td>
-<td style="text-align: center;">
+<td>
 </td>
-<td style="text-align: center; background-color: #FFFFFF; color: #FB0127;"><b>O</b>
+<td style="color: #FB0127;"><b>O</b>
 </td>
-<td style="text-align: center;">
+<td>
 </td>
-<td style="text-align: center;">
+<td>
 </td>
-<td style="text-align: center;">
+<td>
 </td>
-<td style="text-align: center;">
+<td>
 </td>
-<td style="text-align: center;">
+<td>
 </td>
-<td style="text-align: center; background-color: #FFFFFF; color: #3C00DA;"><b>△</b>
+<td style="color: #3C00DA;"><b>△</b>
 </td>
-<td style="text-align: center;">
+<td>
 </td></tr>
 <tr>
-<td style="text-align: center; background: #C1FF71; color: #000000;;"><span style="color:black;">Wind</span>
+<td style="background: #C1FF71; color: #000000;;"><span style="color:black;">Wind</span>
 </td>
-<td style="text-align: center;">
+<td>
 </td>
-<td style="text-align: center;">
+<td>
 </td>
-<td style="text-align: center;">
+<td>
 </td>
-<td style="text-align: center;">
+<td>
 </td>
-<td style="text-align: center;">
+<td>
 </td>
-<td style="text-align: center; background-color: #FFFFFF; color: #3C00DA;"><b>△</b>
+<td style="color: #3C00DA;"><b>△</b>
 </td>
-<td style="text-align: center;">
+<td>
 </td>
-<td style="text-align: center; background-color: #FFFFFF; color: #3C00DA;"><b>△</b>
+<td style="color: #3C00DA;"><b>△</b>
 </td>
-<td style="text-align: center;">
+<td>
 </td>
-<td style="text-align: center;">
+<td>
 </td>
-<td style="text-align: center;">
+<td>
 </td>
-<td style="text-align: center; background-color: #FFFFFF; color: #FB0127;"><b>O</b>
+<td style="color: #FB0127;"><b>O</b>
 </td>
-<td style="text-align: center; background-color: #FFFFFF; color: #FB0127;"><b>O</b>
+<td style="color: #FB0127;"><b>O</b>
 </td>
-<td style="text-align: center;">
+<td>
 </td>
-<td style="text-align: center; background-color: #FFFFFF; color: #FB0127;"><b>O</b>
+<td style="color: #FB0127;"><b>O</b>
 </td>
-<td style="text-align: center; background-color: #FFFFFF; color: #000000;"><b>X</b>
+<td style="color: #000000;"><b>X</b>
 </td>
-<td style="text-align: center;">
+<td>
 </td></tr>
 <tr>
-<td style="text-align: center; background: #FF8D1E; color: #000000;;"><span style="color:black;">Electric</span>
+<td style="background: #FF8D1E; color: #000000;;"><span style="color:black;">Electric</span>
 </td>
-<td style="text-align: center;">
+<td>
 </td>
-<td style="text-align: center;">
+<td>
 </td>
-<td style="text-align: center; background-color: #FFFFFF; color: #FB0127;"><b>O</b>
+<td style="color: #FB0127;"><b>O</b>
 </td>
-<td style="text-align: center; background-color: #FFFFFF; color: #3C00DA;"><b>△</b>
+<td style="color: #3C00DA;"><b>△</b>
 </td>
-<td style="text-align: center; background-color: #FFFFFF; color: #000000;"><b>X</b>
+<td style="color: #000000;"><b>X</b>
 </td>
-<td style="text-align: center;">
+<td>
 </td>
-<td style="text-align: center; background-color: #FFFFFF; color: #FB0127;"><b>O</b>
+<td style="color: #FB0127;"><b>O</b>
 </td>
-<td style="text-align: center; background-color: #FFFFFF; color: #3C00DA;"><b>△</b>
+<td style="tcolor: #3C00DA;"><b>△</b>
 </td>
-<td style="text-align: center; background-color: #FFFFFF; color: #3C00DA;"><b>△</b>
+<td style="color: #3C00DA;"><b>△</b>
 </td>
-<td style="text-align: center;">
+<td>
 </td>
-<td style="text-align: center;">
+<td>
 </td>
-<td style="text-align: center;">
+<td>
 </td>
-<td style="text-align: center;">
+<td>
 </td>
-<td style="text-align: center;">
+<td>
 </td>
-<td style="text-align: center; background-color: #FFFFFF; color: #FB0127;"><b>O</b>
+<td style="color: #FB0127;"><b>O</b>
 </td>
-<td style="text-align: center;">
+<td>
 </td>
-<td style="text-align: center;">
+<td>
 </td></tr>
 <tr>
-<td style="text-align: center; background: #FEE85A; color: #000000;;"><span style="color:black;">Light</span>
+<td style="background: #FEE85A; color: #000000;;"><span style="color:black;">Light</span>
 </td>
-<td style="text-align: center;">
+<td>
 </td>
-<td style="text-align: center;">
+<td>
 </td>
-<td style="text-align: center; background-color: #FFFFFF; color: #3C00DA;"><b>△</b>
+<td style="color: #3C00DA;"><b>△</b>
 </td>
-<td style="text-align: center; background-color: #FFFFFF; color: #3C00DA;"><b>△</b>
+<td style="color: #3C00DA;"><b>△</b>
 </td>
-<td style="text-align: center;">
+<td>
 </td>
-<td style="text-align: center;">
+<td>
 </td>
-<td style="text-align: center;">
+<td>
 </td>
-<td style="text-align: center;">
+<td>
 </td>
-<td style="text-align: center; background-color: #FFFFFF; color: #3C00DA;"><b>△</b>
+<td style="color: #3C00DA;"><b>△</b>
 </td>
-<td style="text-align: center; background-color: #FFFFFF; color: #FB0127;"><b>O</b>
+<td style="color: #FB0127;"><b>O</b>
 </td>
-<td style="text-align: center; background-color: #FFFFFF; color: #FB0127;"><b>O</b>
+<td style="color: #FB0127;"><b>O</b>
 </td>
-<td style="text-align: center;">
+<td>
 </td>
-<td style="text-align: center;">
+<td>
 </td>
-<td style="text-align: center; background-color: #FFFFFF; color: #3C00DA;"><b>△</b>
+<td style="color: #3C00DA;"><b>△</b>
 </td>
-<td style="text-align: center;">
+<td>
 </td>
-<td style="text-align: center;">
+<td>
 </td>
-<td style="text-align: center;">
+<td>
 </td></tr>
 <tr>
-<td style="text-align: center; background: #585858; color: #EEEEEE;;"><span style="color:white;">Dark</span>
+<td style="background: #585858; color: #EEEEEE;;"><span style="color:white;">Dark</span>
 </td>
-<td style="text-align: center; background-color: #FFFFFF; color: #FB0127;"><b>O</b>
+<td style="color: #FB0127;"><b>O</b>
 </td>
-<td style="text-align: center;">
+<td>
 </td>
-<td style="text-align: center;">
+<td>
 </td>
-<td style="text-align: center;">
+<td>
 </td>
-<td style="text-align: center;">
+<td>
 </td>
-<td style="text-align: center;">
+<td>
 </td>
-<td style="text-align: center;">
+<td>
 </td>
-<td style="text-align: center;">
+<td>
 </td>
-<td style="text-align: center; background-color: #FFFFFF; color: #FB0127;"><b>O</b>
+<td style="color: #FB0127;"><b>O</b>
 </td>
-<td style="text-align: center; background-color: #FFFFFF; color: #3C00DA;"><b>△</b>
+<td style="color: #3C00DA;"><b>△</b>
 </td>
-<td style="text-align: center; background-color: #FFFFFF; color: #FB0127;"><b>O</b>
+<td style="color: #FB0127;"><b>O</b>
 </td>
-<td style="text-align: center;">
+<td>
 </td>
-<td style="text-align: center; background-color: #FFFFFF; color: #3C00DA;"><b>△</b>
+<td style="color: #3C00DA;"><b>△</b>
 </td>
-<td style="text-align: center; background-color: #FFFFFF; color: #3C00DA;"><b>△</b>
+<td style="color: #3C00DA;"><b>△</b>
 </td>
-<td style="text-align: center;">
+<td>
 </td>
-<td style="text-align: center;">
+<td>
 </td>
-<td style="text-align: center;">
+<td>
 </td></tr>
 <tr>
-<td style="text-align: center; background: #675173; color: #EEEEEE;;"><span style="color:white;">Nether</span>
+<td style="background: #675173; color: #EEEEEE;;"><span style="color:white;">Nether</span>
 </td>
-<td style="text-align: center;">
+<td>
 </td>
-<td style="text-align: center;">
+<td>
 </td>
-<td style="text-align: center;">
+<td>
 </td>
-<td style="text-align: center;">
+<td>
 </td>
-<td style="text-align: center;">
+<td>
 </td>
-<td style="text-align: center;">
+<td>
 </td>
-<td style="text-align: center;">
+<td>
 </td>
-<td style="text-align: center;">
+<td>
 </td>
-<td style="text-align: center; background-color: #FFFFFF; color: #3C00DA;"><b>△</b>
+<td style="color: #3C00DA;"><b>△</b>
 </td>
-<td style="text-align: center;">
+<td>
 </td>
-<td style="text-align: center; background-color: #FFFFFF; color: #FB0127;"><b>O</b>
+<td style="color: #FB0127;"><b>O</b>
 </td>
-<td style="text-align: center;">
+<td>
 </td>
-<td style="text-align: center;">
+<td>
 </td>
-<td style="text-align: center;">
+<td>
 </td>
-<td style="text-align: center; background-color: #FFFFFF; color: #3C00DA;"><b>△</b>
+<td style="color: #3C00DA;"><b>△</b>
 </td>
-<td style="text-align: center;">
+<td>
 </td>
-<td style="text-align: center;">
+<td>
 </td></tr>
 <tr>
-<td style="text-align: center; background: #AE66FF; color: #EEEEEE;;"><span style="color:white;">Poison</span>
+<td style="background: #AE66FF; color: #EEEEEE;;"><span style="color:white;">Poison</span>
 </td>
-<td style="text-align: center;">
+<td>
 </td>
-<td style="text-align: center;">
+<td>
 </td>
-<td style="text-align: center; background-color: #FFFFFF; color: #FB0127;"><b>O</b>
+<td style="color: #FB0127;"><b>O</b>
 </td>
-<td style="text-align: center; background-color: #FFFFFF; color: #FB0127;"><b>O</b>
+<td style="color: #FB0127;"><b>O</b>
 </td>
-<td style="text-align: center; background-color: #FFFFFF; color: #3C00DA;"><b>△</b>
+<td style="color: #3C00DA;"><b>△</b>
 </td>
-<td style="text-align: center; background-color: #FFFFFF; color: #000000;"><b>X</b>
+<td style="color: #000000;"><b>X</b>
 </td>
-<td style="text-align: center;">
+<td>
 </td>
-<td style="text-align: center;">
+<td>
 </td>
-<td style="text-align: center;">
+<td>
 </td>
-<td style="text-align: center;">
+<td>
 </td>
-<td style="text-align: center; background-color: #FFFFFF; color: #3C00DA;"><b>△</b>
+<td style="color: #3C00DA;"><b>△</b>
 </td>
-<td style="text-align: center; background-color: #FFFFFF; color: #3C00DA;"><b>△</b>
+<td style="color: #3C00DA;"><b>△</b>
 </td>
-<td style="text-align: center;">
+<td>
 </td>
-<td style="text-align: center;">
+<td>
 </td>
-<td style="text-align: center;">
+<td>
 </td>
-<td style="text-align: center; background-color: #FFFFFF; color: #FB0127;"><b>O</b>
+<td style="color: #FB0127;"><b>O</b>
 </td>
-<td style="text-align: center;">
+<td>
 </td></tr>
 <tr>
-<td style="text-align: center; background: #FF6B22; color: #000000;;"><span style="color:black;">Fighting</span>
+<td style="background: #FF6B22; color: #000000;;"><span style="color:black;">Fighting</span>
 </td>
-<td style="text-align: center;">
+<td>
 </td>
-<td style="text-align: center;">
+<td>
 </td>
-<td style="text-align: center;">
+<td>
 </td>
-<td style="text-align: center;">
+<td>
 </td>
-<td style="text-align: center; background-color: #FFFFFF; color: #FB0127;"><b>O</b>
+<td style="color: #FB0127;"><b>O</b>
 </td>
-<td style="text-align: center; background-color: #FFFFFF; color: #FB0127;"><b>O</b>
+<td style="color: #FB0127;"><b>O</b>
 </td>
-<td style="text-align: center; background-color: #FFFFFF; color: #3C00DA;"><b>△</b>
+<td style="color: #3C00DA;"><b>△</b>
 </td>
-<td style="text-align: center;">
+<td>
 </td>
-<td style="text-align: center;">
+<td>
 </td>
-<td style="text-align: center; background-color: #FFFFFF; color: #FB0127;"><b>O</b>
+<td style="color: #FB0127;"><b>O</b>
 </td>
-<td style="text-align: center; background-color: #FFFFFF; color: #000000;"><b>X</b>
+<td style="color: #000000;"><b>X</b>
 </td>
-<td style="text-align: center; background-color: #FFFFFF; color: #3C00DA;"><b>△</b>
+<td style="color: #3C00DA;"><b>△</b>
 </td>
-<td style="text-align: center;">
+<td>
 </td>
-<td style="text-align: center; background-color: #FFFFFF; color: #3C00DA;"><b>△</b>
+<td style="color: #3C00DA;"><b>△</b>
 </td>
-<td style="text-align: center;">
+<td>
 </td>
-<td style="text-align: center; background-color: #FFFFFF; color: #FB0127;"><b>O</b>
+<td style="color: #FB0127;"><b>O</b>
 </td>
-<td style="text-align: center;">
+<td>
 </td></tr>
 <tr>
-<td style="text-align: center; background: #FF71E9; color: #000000;;"><span style="color:black;">Illusion</span>
+<td style="background: #FF71E9; color: #000000;;"><span style="color:black;">Illusion</span>
 </td>
-<td style="text-align: center; background-color: #FFFFFF; color: #000000;"><b>X</b>
+<td style="color: #000000;"><b>X</b>
 </td>
-<td style="text-align: center;">
+<td>
 </td>
-<td style="text-align: center;">
+<td>
 </td>
-<td style="text-align: center;">
+<td>
 </td>
-<td style="text-align: center;">
+<td>
 </td>
-<td style="text-align: center; background-color: #FFFFFF; color: #3C00DA;"><b>△</b>
+<td style="color: #3C00DA;"><b>△</b>
 </td>
-<td style="text-align: center;">
+<td>
 </td>
-<td style="text-align: center;">
+<td>
 </td>
-<td style="text-align: center; background-color: #FFFFFF; color: #FB0127;"><b>O</b>
+<td style="color: #FB0127;"><b>O</b>
 </td>
-<td style="text-align: center;">
+<td>
 </td>
-<td style="text-align: center; background-color: #FFFFFF; color: #3C00DA;"><b>△</b>
+<td style="color: #3C00DA;"><b>△</b>
 </td>
-<td style="text-align: center;">
+<td>
 </td>
-<td style="text-align: center;">
+<td>
 </td>
-<td style="text-align: center; background-color: #FFFFFF; color: #FB0127;"><b>O</b>
+<td style="color: #FB0127;"><b>O</b>
 </td>
-<td style="text-align: center;">
+<td>
 </td>
-<td style="text-align: center;">
+<td>
 </td>
-<td style="text-align: center;">
+<td>
 </td></tr>
 <tr>
-<td style="text-align: center; background: #FFB400; color: #000000;;"><span style="color:black;">Sound</span>
+<td style="background: #FFB400; color: #000000;;"><span style="color:black;">Sound</span>
 </td>
-<td style="text-align: center;">
+<td>
 </td>
-<td style="text-align: center;">
+<td>
 </td>
-<td style="text-align: center;">
+<td>
 </td>
-<td style="text-align: center;">
+<td>
 </td>
-<td style="text-align: center;">
+<td>
 </td>
-<td style="text-align: center;">
+<td>
 </td>
-<td style="text-align: center; background-color: #FFFFFF; color: #3C00DA;"><b>△</b>
+<td style="color: #3C00DA;"><b>△</b>
 </td>
-<td style="text-align: center;">
+<td>
 </td>
-<td style="text-align: center; background-color: #FFFFFF; color: #3C00DA;"><b>△</b>
+<td style="color: #3C00DA;"><b>△</b>
 </td>
-<td style="text-align: center;">
+<td>
 </td>
-<td style="text-align: center;">
+<td>
 </td>
-<td style="text-align: center;">
+<td>
 </td>
-<td style="text-align: center; background-color: #FFFFFF; color: #FB0127;"><b>O</b>
+<td style="color: #FB0127;"><b>O</b>
 </td>
-<td style="text-align: center; background-color: #FFFFFF; color: #FB0127;"><b>O</b>
+<td style="color: #FB0127;"><b>O</b>
 </td>
-<td style="text-align: center; background-color: #FFFFFF; color: #3C00DA;"><b>△</b>
+<td style="color: #3C00DA;"><b>△</b>
 </td>
-<td style="text-align: center; background-color: #FFFFFF; color: #FB0127;"><b>O</b>
+<td style="color: #FB0127;"><b>O</b>
 </td>
-<td style="text-align: center;">
+<td>
 </td></tr>
 <tr>
-<td style="text-align: center; background: #3A62C4; color: #EEEEEE;;"><span style="color:white;">Warped</span>
+<td style="background: #3A62C4; color: #EEEEEE;;"><span style="color:white;">Warped</span>
 </td>
-<td style="text-align: center;">
+<td>
 </td>
-<td style="text-align: center;">
+<td>
 </td>
-<td style="text-align: center;">
+<td>
 </td>
-<td style="text-align: center;">
+<td>
 </td>
-<td style="text-align: center;">
+<td>
 </td>
-<td style="text-align: center; background-color: #FFFFFF; color: #FB0127;"><b>O</b>
+<td style="color: #FB0127;"><b>O</b>
 </td>
-<td style="text-align: center; background-color: #FFFFFF; color: #FB0127;"><b>O</b>
+<td style="color: #FB0127;"><b>O</b>
 </td>
-<td style="text-align: center;">
+<td>
 </td>
-<td style="text-align: center;">
+<td>
 </td>
-<td style="text-align: center; background-color: #FFFFFF; color: #3C00DA;"><b>△</b>
+<td style="color: #3C00DA;"><b>△</b>
 </td>
-<td style="text-align: center;">
+<td>
 </td>
-<td style="text-align: center; background-color: #FFFFFF; color: #3C00DA;"><b>△</b>
+<td style="color: #3C00DA;"><b>△</b>
 </td>
-<td style="text-align: center; background-color: #FFFFFF; color: #3C00DA;"><b>△</b>
+<td style="color: #3C00DA;"><b>△</b>
 </td>
-<td style="text-align: center; background-color: #FFFFFF; color: #FB0127;"><b>O</b>
+<td style="color: #FB0127;"><b>O</b>
 </td>
-<td style="text-align: center;">
+<td>
 </td>
-<td style="text-align: center; background-color: #FFFFFF; color: #3C00DA;"><b>△</b>
+<td style="color: #3C00DA;"><b>△</b>
 </td>
-<td style="text-align: center;">
+<td>
 </td></tr>
 <tr>
-<td style="text-align: center; background: #F75B97; color: #000000;;"><span style="color:black;">Dream</span>
+<td style="background: #F75B97; color: #000000;;"><span style="color:black;">Dream</span>
 </td>
-<td style="text-align: center;">
+<td>
 </td>
-<td style="text-align: center;">
+<td>
 </td>
-<td style="text-align: center;">
+<td>
 </td>
-<td style="text-align: center;">
+<td>
 </td>
-<td style="text-align: center;">
+<td>
 </td>
-<td style="text-align: center;">
+<td>
 </td>
-<td style="text-align: center;">
+<td>
 </td>
-<td style="text-align: center;">
+<td>
 </td>
-<td style="text-align: center;">
+<td>
 </td>
-<td style="text-align: center;">
+<td>
 </td>
-<td style="text-align: center;">
+<td>
 </td>
-<td style="text-align: center;">
+<td>
 </td>
-<td style="text-align: center;">
+<td>
 </td>
-<td style="text-align: center;">
+<td>
 </td>
-<td style="text-align: center;">
+<td>
 </td>
-<td style="text-align: center;">
+<td>
 </td>
-<td style="text-align: center;">
+<td>
 </td></tr>
 </tbody></table>
 
@@ -680,7 +680,7 @@
 <th colspan="2" style="background-color: #DDDDDD; color: #000000; text-align: center;">Key
 </th></tr>
 <tr>
-<td style="text-align: center; width: 150px; background-color: #FFFFFF; color: #FB0127;"><b>Super Effective</b><br>(2x)
+<td style="width: 150px; background-color: #FFFFFF; color: #FB0127;"><b>Super Effective</b><br>(2x)
 </td>
 <td style="text-align: center; width: 26px; background-color: #FFFFFF; color: #FB0127;"><b>O</b>
 </td></tr>
