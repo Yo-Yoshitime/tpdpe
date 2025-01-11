@@ -5,7 +5,8 @@
 <li>Be sure to reference both types when checking which type to use on them, for example, <a href="{{ '/Normal-Kogasa' | relative_url }}" title="Normal Kogasa">Normal Kogasa</a> is Water Wind, Wind is Weak to Steel, which is 2x, however, Water resists Steel, meaning it will actually only do 1x, because the Water type neutralizes the weakness to Steel caused by her secondary Wind typing.</li>
 </ul>
 
-<table id="type_chart">
+
+<table id="type_chart" class="table_encore">
 <tbody><tr>
 <td style="text-align: center;">A/D
 </td>
@@ -674,7 +675,7 @@
 </td></tr>
 </tbody></table>
 
-<table class="type_chart">
+<table class="table_encore">
 <tbody><tr>
 <th colspan="2" style="background-color: #DDDDDD; color: #000000; text-align: center;">Key
 </th></tr>
@@ -694,7 +695,7 @@
 <td style="text-align: center; background-color: #FFFFFF; color: #000000;"><b>X</b>
 </td></tr></tbody></table>
 
-<table class="table" style="border-style: solid; border-width: 1px; float:left;">
+<table class="table_encore" style="border-style: solid; border-width: 1px; float:left;">
 <tbody><tr>
 <td>Status skills are not effected by these interactions.
 <ul><li>For example, Warped-type puppets can still be hit by Squall, despite being immune to Wind type moves. This trait is ignored by Type Immunity Abilities, such as <a href="{{ '/Negative-Aura' | relative_url }}" title="Negative Aura">Negative Aura</a></li>
