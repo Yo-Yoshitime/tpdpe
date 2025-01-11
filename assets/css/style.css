@@ -13,18 +13,14 @@
 }
 
 .table_encore {
-	border-style: solid;
-  	border-width: 1px;
-	border-color: A2A9B1;
+	border: 1px solid #7D8287;
 	width: auto;
 }
 
 #type_chart td {
-	border: 1px solid black;
+	border: 1px solid #7D8287;
 	padding: 4px 8px 4px 8px;
 }
-
-
 
 .tab,
 .tab2,
