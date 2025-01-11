@@ -13,21 +13,16 @@
 }
 
 .type_chart {
-    border: 1px solid black;
-    float:left;
-    font-size: 14px;
-    width: auto;
+	border: 1px solid black;
+	float:left;
+    font-size: 15px;
+	width: auto;
 }
 
-.type_chart td{
+
+.type_chart td {
     border: 1px solid black;
-    border-collapse: collapse;
     padding: 3px 6px 3px 6px;
-}
-
-.type_chart th {
-    border: 1px solid black;
-    border-collapse: collapse;
 }
 
 .tab,
