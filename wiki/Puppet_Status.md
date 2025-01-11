@@ -159,6 +159,7 @@
   <button class="tablinks3" onclick="statusTempList(event, 'Trapped')"><b>Trapped</b></button>
   <button class="tablinks3" onclick="statusTempList(event, 'Mirage')"><b>Mirage</b></button>
   <button class="tablinks3" onclick="statusTempList(event, 'Soaked')"><b>Soaked</b></button>
+  <button class="tablinks3" onclick="statusTempList(event, 'Clean_Slate')"><b>Clean Slate</b></button>
   <button class="tablinks3" onclick="statusTempList(event, 'Ghostly')"><b>Ghostly</b></button>
   <button class="tablinks3" onclick="statusTempList(event, 'Charged')"><b>Charged</b></button>
   <button class="tablinks3" onclick="statusTempList(event, 'Bracing')"><b>Bracing</b></button>
@@ -227,7 +228,11 @@ Moves such as <a href="{{ '/Changeling' | relative_url }}" title="Changeling">Ch
 </div>
 
 <div id="Soaked" class="tabcontent3">
-<p>Changes the target's <a href="{{ '/Type_Chart' | relative_url }}" title="Type Chart">type</a> to <a href="{{ '/Water' | relative_url }}" title="Water">Water</a>. Can be removed by switching out. The skill fails on Puppets that are already <a href="{{ '/Water' | relative_url }}" title="Water">Water</a>-type, unless the Puppet has a secondary type.</p>
+<p>Can only be caused by <a href="{{ '/Aquatic_Waltz' | relative_url }}" title="Aquatic Waltz">Aquatic Waltz</a>. Changes the target's <a href="{{ '/Type_Chart' | relative_url }}" title="Type Chart">type</a> to <a href="{{ '/Water' | relative_url }}" title="Water">Water</a>. Can be removed by switching out. The skill fails on Puppets that are already <a href="{{ '/Water' | relative_url }}" title="Water">Water</a>-type, unless the Puppet has a secondary type.</p>
+</div>
+
+<div id="Clean_Slate" class="tabcontent3">
+<p>Can only be caused by <a href="{{ '/Tabula_Rasa' | relative_url }}" title="Tabula Rasa">Tabula Rasa</a>. Changes the target's <a href="{{ '/Type_Chart' | relative_url }}" title="Type Chart">type</a> to <a href="{{ '/Void' | relative_url }}" title="Void">Void</a>. Can be removed by switching out.</p>
 </div>
 
 <div id="Ghostly" class="tabcontent3">
