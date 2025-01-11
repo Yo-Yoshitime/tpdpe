@@ -5,28 +5,26 @@
 }
 
 #mediawiki h1, h2, h3, h4, h5, h6 {
- font-family: "Linux Libertine", Georgia, Times, serif;
- }
+    font-family: "Linux Libertine", Georgia, Times, serif;
+}
  
- #mediawiki span {
- font-weight: normal;
- }
-
-#type_chart {
-  border-style: solid;
-  border-width: 1px;
-  float:left;
-  font-size: 15px;
-  width: auto;
+#mediawiki span {
+    font-weight: normal;
 }
 
-#type_chart td{
-  padding: 1px 1px 1px 1px;
+.type_chart {
+      float:left;
+      font-size: 15px;
+      width: auto;
 }
 
-#type_chart table, td, th {
-  border: 1px solid black;
-  border-collapse: collapse;
+.type_chart td{
+    padding: 3px 6px 3px 6px;
+}
+
+.type_chart table, td, th {
+    border: 1px solid black;
+    border-collapse: collapse;
 }
 
 .tab,
