@@ -13,5 +13,6 @@ Because of my lazy ass, I made a wiki with all the Encore changes already implem
 </ul>
 
 Encore's Mod is being made by Eveiira Everel Everyone Everentinton Eve, also known as [Everii](https://x.com/Eveiira).
+<br>
 Wiki created by Yoshitime, held by hopes and tape just like the original game. <img src="assets/Images/Thumbs_up.png" alt="Thumbs up" width="44.9" height="38.6">
 
