@@ -232,8 +232,8 @@ There are no abilities that benefit from "Clear" terrain.
 <h3><span>Have Different Effects when Terrain is Seiryu</span></h3>
 <ul><li><a href="{{ '/Lost_Crisis' | relative_url }}" title="Lost Crisis">Lost Crisis</a> - While any Terrain effect is currently active, except Clear, deals 2x damage, then sets terrain to Clear.</li>
 <li><a href="{{ '/Destruction_Rift' | relative_url }}" title="Destruction Rift">Destruction Rift</a> - While any Terrain effect is currently active, except Clear, deals 2x damage, then sets terrain to Clear.</li>
-<li><a href="{{ '/Earthly_Blessing' | relative_url }}" title="Earthly Blessing">Earthly Blessing</a> - While the terrain is currently Seiryu, deals 2x damage and skills type becomes Nature</li>
-<li><a href="{{ '/Earthly_Influence' | relative_url }}" title="Earthly Influence">Earthly Influence</a> - While the terrain is currently Seiryu, deals 2x damage and skills type becomes Nature</li></ul>
+<li><a href="{{ '/Earthly_Blessing' | relative_url }}" title="Earthly Blessing">Earthly Blessing</a> - While the terrain is currently Seiryu, deals 2x damage and skills type becomes Nature.</li>
+<li><a href="{{ '/Earthly_Influence' | relative_url }}" title="Earthly Influence">Earthly Influence</a> - While the terrain is currently Seiryu, deals 2x damage and skills type becomes Nature.</li></ul>
 
 <h2><span>Abilities</span></h2>
 <ul><li><a href="{{ '/Timegazer' | relative_url }}" title="Timegazer">Timegazer</a> - When using <a href="{{ '/Terrain_Seiryu' | relative_url }}" title="Terrain Seiryu">Terrain Seiryu</a>, Seiryu will be set for 8 turns instead of 5. (<a href="{{ '/Assist_Renko' | relative_url }}" title="Assist Renko">Assist Renko</a> only)</li></ul>
@@ -259,8 +259,8 @@ There are no abilities that benefit from "Clear" terrain.
 <h3><span>Have Different Effects when Terrain is Suzaku</span></h3>
 <ul><li><a href="{{ '/Lost_Crisis' | relative_url }}" title="Lost Crisis">Lost Crisis</a> - While any Terrain effect is currently active, except Clear, deals 2x damage, then sets terrain to Clear.</li>
 <li><a href="{{ '/Destruction_Rift' | relative_url }}" title="Destruction Rift">Destruction Rift</a> - While any Terrain effect is currently active, except Clear, deals 2x damage, then sets terrain to Clear.</li>
-<li><a href="{{ '/Earthly_Blessing' | relative_url }}" title="Earthly Blessing">Earthly Blessing</a> - While the terrain is currently Suzaku, deals 2x damage and skills type becomes Fire</li>
-<li><a href="{{ '/Earthly_Influence' | relative_url }}" title="Earthly Influence">Earthly Influence</a> - While the terrain is currently Suzaku, deals 2x damage and skills type becomes Fire</li></ul>
+<li><a href="{{ '/Earthly_Blessing' | relative_url }}" title="Earthly Blessing">Earthly Blessing</a> - While the terrain is currently Suzaku, deals 2x damage and skills type becomes Fire.</li>
+<li><a href="{{ '/Earthly_Influence' | relative_url }}" title="Earthly Influence">Earthly Influence</a> - While the terrain is currently Suzaku, deals 2x damage and skills type becomes Fire.</li></ul>
 
 <h2><span>Abilities</span></h2>
 <ul><li><a href="{{ '/Timegazer' | relative_url }}" title="Timegazer">Timegazer</a> - When using <a href="{{ '/Terrain_Suzaku' | relative_url }}" title="Terrain Suzaku">Terrain Suzaku</a>, Suzaku will be set for 8 turns instead of 5. (<a href="{{ '/Assist_Renko' | relative_url }}" title="Assist Renko">Assist Renko</a> only)</li></ul>
@@ -287,8 +287,8 @@ There are no abilities that benefit from "Clear" terrain.
 <h3><span>Have Different Effects when Terrain is Byakko</span></h3>
 <ul><li><a href="{{ '/Lost_Crisis' | relative_url }}" title="Lost Crisis">Lost Crisis</a> - While any Terrain effect is currently active, except Clear, deals 2x damage, then sets terrain to Clear.</li>
 <li><a href="{{ '/Destruction_Rift' | relative_url }}" title="Destruction Rift">Destruction Rift</a> - While any Terrain effect is currently active, except Clear, deals 2x damage, then sets terrain to Clear.</li>
-<li><a href="{{ '/Earthly_Blessing' | relative_url }}" title="Earthly Blessing">Earthly Blessing</a> - While the terrain is currently Byakko, deals 2x damage and skills type becomes Steel</li>
-<li><a href="{{ '/Earthly_Influence' | relative_url }}" title="Earthly Influence">Earthly Influence</a> - While the terrain is currently Byakko, deals 2x damage and skills type becomes Steel</li></ul>
+<li><a href="{{ '/Earthly_Blessing' | relative_url }}" title="Earthly Blessing">Earthly Blessing</a> - While the terrain is currently Byakko, deals 2x damage and skills type becomes Steel.</li>
+<li><a href="{{ '/Earthly_Influence' | relative_url }}" title="Earthly Influence">Earthly Influence</a> - While the terrain is currently Byakko, deals 2x damage and skills type becomes Steel.</li></ul>
 
 <h2><span>Abilities</span></h2>
 <ul><li><a href="{{ '/Timegazer' | relative_url }}" title="Timegazer">Timegazer</a> - When using <a href="{{ '/Terrain_Byakko' | relative_url }}" title="Terrain Byakko">Terrain Byakko</a>, Byakko will be set for 8 turns instead of 5. (<a href="{{ '/Assist_Renko' | relative_url }}" title="Assist Renko">Assist Renko</a> only)</li></ul>
@@ -313,8 +313,8 @@ There are no abilities that benefit from "Clear" terrain.
 <h3><span>Have Different Effects when Terrain is Genbu</span></h3>
 <ul><li><a href="{{ '/Lost_Crisis' | relative_url }}" title="Lost Crisis">Lost Crisis</a> - While any Terrain effect is currently active, except Clear, deals 2x damage, then sets terrain to Clear.</li>
 <li><a href="{{ '/Destruction_Rift' | relative_url }}" title="Destruction Rift">Destruction Rift</a> - While any Terrain effect is currently active, except Clear, deals 2x damage, then sets terrain to Clear.</li>
-<li><a href="{{ '/Earthly_Blessing' | relative_url }}" title="Earthly Blessing">Earthly Blessing</a> - While the terrain is currently Genbu, deals 2x damage and skills type becomes Water</li>
-<li><a href="{{ '/Earthly_Influence' | relative_url }}" title="Earthly Influence">Earthly Influence</a> - While the terrain is currently Genbu, deals 2x damage and skills type becomes Water</li></ul>
+<li><a href="{{ '/Earthly_Blessing' | relative_url }}" title="Earthly Blessing">Earthly Blessing</a> - While the terrain is currently Genbu, deals 2x damage and skills type becomes Water.</li>
+<li><a href="{{ '/Earthly_Influence' | relative_url }}" title="Earthly Influence">Earthly Influence</a> - While the terrain is currently Genbu, deals 2x damage and skills type becomes Water.</li></ul>
 
 <h2><span>Abilities</span></h2>
 <ul><li><a href="{{ '/Timegazer' | relative_url }}" title="Timegazer">Timegazer</a> - When using <a href="{{ '/Terrain_Genbu' | relative_url }}" title="Terrain Genbu">Terrain Genbu</a>, Genbu will be set for 8 turns instead of 5. (<a href="{{ '/Assist_Renko' | relative_url }}" title="Assist Renko">Assist Renko</a> only)</li></ul>
@@ -332,7 +332,7 @@ There are no abilities that benefit from "Clear" terrain.
 </p>
 <ul><li>Simulates effects of <a href="{{ '/Wasteful' | relative_url }}" title="Wasteful">Wasteful</a>, making user unable to use their hold items.</li>
 <li>Disables effects of abilities that alter damage of skills, similar to <a href="{{ '/Ascertainment' | relative_url }}" title="Ascertainment">Ascertainment</a>.</li>
-<li>Also ignores abilities that would otherwise interfere with your skills, such as <a href="{{ '/Frail_Health' | relative_url }}" title="Frail Health">Frail Health</a> and <a href="{{ '/Clock_of_Darkness' | relative_url }}" title="Cloak of Darkness">Cloak of Darkness</a></li></ul>
+<li>Also ignores abilities that would otherwise interfere with your skills, such as <a href="{{ '/Frail_Health' | relative_url }}" title="Frail Health">Frail Health</a> and <a href="{{ '/Clock_of_Darkness' | relative_url }}" title="Cloak of Darkness">Cloak of Darkness</a>.</li></ul>
 
 <h2><span>Skills</span></h2>
 <h3><span>Change Terrain to Kohryu</span></h3>
@@ -342,8 +342,8 @@ There are no abilities that benefit from "Clear" terrain.
 <h3><span>Have Different Effects when Terrain is Kohryu</span></h3>
 <ul><li><a href="{{ '/Lost_Crisis' | relative_url }}" title="Lost Crisis">Lost Crisis</a> - While any Terrain effect is currently active, except Clear, deals 2x damage, then sets terrain to Clear.</li>
 <li><a href="{{ '/Destruction_Rift' | relative_url }}" title="Destruction Rift">Destruction Rift</a> - While any Terrain effect is currently active, except Clear, deals 2x damage, then sets terrain to Clear.</li>
-<li><a href="{{ '/Earthly_Blessing' | relative_url }}" title="Earthly Blessing">Earthly Blessing</a> - While the terrain is currently Kohryu, deals 2x damage and skills type becomes Earth</li>
-<li><a href="{{ '/Earthly_Influence' | relative_url }}" title="Earthly Influence">Earthly Influence</a> - While the terrain is currently Kohryu, deals 2x damage and skills type becomes Earth</li></ul>
+<li><a href="{{ '/Earthly_Blessing' | relative_url }}" title="Earthly Blessing">Earthly Blessing</a> - While the terrain is currently Kohryu, deals 2x damage and skills type becomes Earth.</li>
+<li><a href="{{ '/Earthly_Influence' | relative_url }}" title="Earthly Influence">Earthly Influence</a> - While the terrain is currently Kohryu, deals 2x damage and skills type becomes Earth.</li></ul>
 
 <h2><span>Abilities</span></h2>
 <ul><li><a href="{{ '/Timegazer' | relative_url }}" title="Timegazer">Timegazer</a> - When using <a href="{{ '/Terrain_Kohryu' | relative_url }}" title="Terrain Kohryu">Terrain Kohryu</a>, Kohryu will be set for 8 turns instead of 5. (<a href="{{ '/Assist_Renko' | relative_url }}" title="Assist Renko">Assist Renko</a> only)</li></ul>
