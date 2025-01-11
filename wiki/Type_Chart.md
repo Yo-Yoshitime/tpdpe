@@ -244,7 +244,7 @@
 </td>
 <td style="color: #3C00DA;"><b>△</b>
 </td>
-<td style="tcolor: #FB0127;"><b>O</b>
+<td style="color: #FB0127;"><b>O</b>
 </td>
 <td>
 </td>
