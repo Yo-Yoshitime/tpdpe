@@ -17,7 +17,7 @@
 }
 
 .table_encore td {
-	border: 10px solid #7D8287;
+	border: 10px solid #7D8287 !important; 
 }
 
 #type_chart td {
@@ -27,8 +27,7 @@
 
 .tab,
 .tab2,
-.tab3
-{
+.tab3 {
 	overflow: hidden;
 	white-space: nowrap;
 	border-bottom: 2px solid #ccc;
@@ -39,8 +38,7 @@
 
 .tab button,
 .tab2 button,
-.tab3 button
-{
+.tab3 button {
 	background-color: inherit;
 	float: left;
 	border: none;
@@ -51,25 +49,21 @@
 
 .tab button:hover,
 .tab2 button:hover,
-.tab3 button:hover
-{
+.tab3 button:hover {
 	color: #447FF5;
 	border-bottom: 2px solid #447FF5;
 }
 
 .tab button.active,
 .tab2 button.active,
-.tab3 button.active
-{
+.tab3 button.active {
 	color: #3366CC;
 	border-bottom: 2px solid #3366CC;
-  
 }
 
 .tabcontent,
 .tabcontent2,
-.tabcontent3
-{
+.tabcontent3 {
 	display: none;
 	padding: 5px 0px 0px 0px;
 	border-top: none;
@@ -106,8 +100,7 @@
 
 #center,
 #center2,
-#center3
-{
+#center3 {
 	width: 100%;
 	display: flex;
 	overflow-x: scroll;
@@ -117,19 +110,18 @@
 
 #center::-webkit-scrollbar, 
 #center2::-webkit-scrollbar,
-#center3::-webkit-scrollbar
-{
+#center3::-webkit-scrollbar {
 	display: none;
 }
 
-.scroll-left{
+.scroll-left {
 	position: absolute;
 	top: 0;
 	left: 0;
 	background-color: #ddd;
 }
 
-.scroll-right{
+.scroll-right {
 	position: absolute;
 	top: 0;
 	right: 0;
