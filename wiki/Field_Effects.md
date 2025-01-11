@@ -103,7 +103,7 @@
 <h2><span>Effect</span></h2>
 <p><b><a href="{{ '/Weather_Heavy_Fog' | relative_url }}" title="Weather Heavy Fog">Heavy Fog</a></b> increases the damage of Dark-type skills by +50%, and halves (-50%) the damage of Light-type skills.</p>
 
-<h2><span>Skills</h2>
+<h2><span>Skills</span></h2>
 <h3><span>Change Weather to Heavy Fog</span></h3>
 <ul><li><a href="{{ '/Weather_Heavy_Fog' | relative_url }}" title="Weather Heavy Fog">Weather Heavy Fog</a> - Changes current weather to Heavy Fog, if not already active, for 5 turns (increases to 8 turns if holding an Almighty or Twilight Godstone), if already active, the skill fails without reseting turn limit.</li>
 <li><a href="{{ '/Realm_Scarlet_Mist' | relative_url }}" title="Realm Scarlet Mist">Realm Scarlet Mist</a> - Changes the current weather to Heavy Fog, and terrain to Suzaku for 5 turns, even if Heavy Fog or Suzaku are already active. Unaffected by Almighty of Twilight Godstone, but can be reused while still active to reset the turn limit to 5.</li></ul>
