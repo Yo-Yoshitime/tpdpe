@@ -24,11 +24,11 @@
 <p>Default Weather, no additional effects.</p>
  
 <h2><span>Skills</span></h2>
-<h3><span><b>Change Weather to Clear</b></span></h3>
+<h3><span>Change Weather to Clear</span></h3>
 <ul><li><a href="{{ '/Sunbeam_Dance' | relative_url }}" title="Sunbeam Dance">Sunbeam Dance</a> - While another Weather effect is currently active, deals 2x damage, then sets weather to Clear.</li>
 <li><a href="{{ '/Passing_Breeze' | relative_url }}" title="Passing Breeze">Passing Breeze</a> - While another Weather effect is currently active, deals 2x damage, then sets weather to Clear.</li></ul>
 
-<h3><span><b>Have Different Effects when Weather is Clear</b></span></h3>
+<h3><span>Have Different Effects when Weather is Clear</span></h3>
 <ul><li><a href="{{ '/Heavenly_Blessing' | relative_url }}" title="Heavenly Blessing">Heavenly Blessing</a> - While no weather is currently active, is treated as a normal attack.</li>
 <li><a href="{{ '/Heveanly_Influence' | relative_url }}" title="Heavenly Influence">Heavenly Influence</a> - While no weather is currently active, is treated as a normal attack.</li></ul>
 
