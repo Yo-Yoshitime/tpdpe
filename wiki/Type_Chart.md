@@ -1,4 +1,4 @@
-<h1><span>Type Chart</span></h1>
+# <span>Type Chart</span>
 
 <p>-Left Side is the type of the Skill being used, and Top Side is the type of the Puppet defending</p>
 <ul>
