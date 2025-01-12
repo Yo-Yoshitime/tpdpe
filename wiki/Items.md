@@ -228,7 +228,7 @@
 <td><a href="/wiki/Type-Boosting_Items" title="Type-Boosting Items">Ruby</a>
 </td>
 <td>Red jewelry. Raises the power of Fire skills once.
-</td>></tr>
+</td></tr>
 <tr>
 <td><a href="/wiki/Type-Boosting_Items" title="Type-Boosting Items">Sapphire</a>
 </td>
