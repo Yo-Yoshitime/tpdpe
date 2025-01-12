@@ -12,11 +12,12 @@
     <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
     crossorigin="anonymous"></script>
     <script src="{{ '/assets/js/checkLinks.js' | relative_url }}"></script>
+    <script src="/tpdpe/assets/js/sorttable.js"></script>
     
     <link rel="stylesheet" href="{{ '/assets/css/github.css?v=' | append: site.github.build_revision | relative_url }}">
     {% include git-wiki/sections/head/styles.html %}
     <link rel="icon" type="image/x-icon" href="/tpdpe/assets/Images/Icon.png">
-    
+
     {% if site.inc_after_head %}
     {% include {{ site.inc_after_head }} %}
     {% endif %}
@@ -59,6 +60,5 @@
     {% include git-wiki/sections/tail/tail.html %}
 
     <script src="/tpdpe/assets/js/main.js"></script>
-    <script src="/tpdpe/assets/js/sorttable.js"></script>
 </body>
 </html>
