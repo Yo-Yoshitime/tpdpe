@@ -11,6 +11,7 @@
 </th></tr></thead><tbody>
 <tr>
 <td><a href="/wiki/Anti-Fire_Charm" class="mw-redirect" title="Anti-Fire Charm">Anti-Fire Charm</a><sup class="reference plainlinks nourlexpansion" id="ref_a"><a href="#endnote_a">a</a></sup>
+</td>
 <td>When held, damage dealt from Fire-skills will be reduced once.
 </td></tr>
 <tr>
