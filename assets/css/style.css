@@ -13,12 +13,23 @@
 	color: black;
 }
 
+ table.sortable {
+	width: auto;
+}
+
+table.sortable thead {
+
+	font-weight: bold;
+	cursor: default;
+}
+
 .table_encore {
 	width: auto;
 }
 
 .table_encore td,
-.table_encore th {
+.table_encore th,
+table.sortable {
 	border: 1px solid #7D8287 !important; 
 }
 
