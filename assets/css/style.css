@@ -13,27 +13,27 @@
 	color: black;
 }
 
-table.sortable th {
+table.table_encore-sortable th {
 	font-weight: bold;
 	cursor: pointer;
 	-webkit-user-select: none; /* Safari */
 	-ms-user-select: none; /* IE 10 and IE 11 */
-	user-select: none; /* Standard syntax */
+	user-select: none;
 }
 
-table.sortable th:not(.sorttable_sorted):not(.sorttable_sorted_reverse):not(.sorttable_nosort):after { 
+table.table_encore-sortable th:not(.sorttable_sorted):not(.sorttable_sorted_reverse):not(.sorttable_nosort):after { 
     content: " \25B4\25BE" 
 }
 
 .table_encore,
-table.sortable {
+table.table_encore-sortable {
 	width: auto;
 }
 
 .table_encore td,
 .table_encore th,
-table.sortable td,
-table.sortable th
+table.table_encore-sortable td,
+table.table_encore-sortable th
 {
 	border: 1px solid #7D8287 !important; 
 }
