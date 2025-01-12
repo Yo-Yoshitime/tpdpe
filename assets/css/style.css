@@ -13,24 +13,24 @@
 	color: black;
 }
 
- table.sortable {
-	width: auto;
-}
-
 table.sortable thead {
-	background-color:#eee;
-	color:#666666;
 	font-weight: bold;
-	cursor: default;
+	cursor: pointer;
+	-webkit-user-select: none; /* Safari */
+	-ms-user-select: none; /* IE 10 and IE 11 */
+	user-select: none; /* Standard syntax */
 }
 
-.table_encore {
+.table_encore,
+table.sortable {
 	width: auto;
 }
 
 .table_encore td,
 .table_encore th,
-table.sortable {
+table.sortable td,
+table.sortable th
+{
 	border: 1px solid #7D8287 !important; 
 }
 
