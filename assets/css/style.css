@@ -13,12 +13,16 @@
 	color: black;
 }
 
-table.sortable thead {
+table.sortable th {
 	font-weight: bold;
 	cursor: pointer;
 	-webkit-user-select: none; /* Safari */
 	-ms-user-select: none; /* IE 10 and IE 11 */
 	user-select: none; /* Standard syntax */
+}
+
+table.sortable th:not(.sorttable_sorted):not(.sorttable_sorted_reverse):not(.sorttable_nosort):after { 
+    content: " \25B4\25BE" 
 }
 
 .table_encore,
