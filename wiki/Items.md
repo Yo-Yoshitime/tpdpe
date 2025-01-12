@@ -1,11 +1,9 @@
 # <span>Items</span>
 
 <h2><span>Hold 1</span></h2>
-<p>Items in this pocket are for the Puppet to hold, and when used in battle, will vanish after use. Unlike most Pokemon games, they come back after each battle is complete, so it is completely safe to use them in the main story.
-</p>
+<p>Items in this pocket are for the Puppet to hold, and when used in battle, will vanish after use. Unlike most Pokemon games, they come back after each battle is complete, so it is completely safe to use them in the main story.</p>
 
-<table class="wikitable sortable jquery-tablesorter" style="border-style: solid; border-width: 1px;">
-
+<table class="table_encore">
 <thead><tr>
 <th scope="col" style="background-color:#efefef;" class="headerSort" tabindex="0" role="columnheader button" title="Sort ascending">Name
 </th>
@@ -325,4 +323,8 @@
 </td>
 <td style="background-color: #F75B97; color: black;">When held, if the user receives a Sp.Atk, Sp.Def is raised.
 </td></tr>
-</tbody><tfoot></tfoot></table>
+</tbody>
+<tfoot>
+  
+</tfoot>
+</table>
