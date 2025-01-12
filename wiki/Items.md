@@ -3,7 +3,7 @@
 <h2><span>Hold 1</span></h2>
 <p>Items in this pocket are for the Puppet to hold, and when used in battle, will vanish after use. Unlike most Pokemon games, they come back after each battle is complete, so it is completely safe to use them in the main story.</p>
 
-<table class="table_encore">
+<table class="sortable">
 <thead><tr>
 <th scope="col" style="background-color:#efefef;" class="headerSort" tabindex="0" role="columnheader button" title="Sort ascending">Name
 </th>
